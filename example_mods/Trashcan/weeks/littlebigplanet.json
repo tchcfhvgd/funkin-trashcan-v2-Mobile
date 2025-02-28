@@ -1,0 +1,28 @@
+{
+	"songs": [
+		[
+			"The Orb Of Dreamers",
+			"sackboy",
+			[
+				167,
+				236,
+				251
+			],
+			"Zinkk99 & ZozerKul"
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Your New Week",
+	"weekName": "Custom Week",
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

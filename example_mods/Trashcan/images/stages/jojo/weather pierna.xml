@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="weather pierna.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="weather pierna0000" x="10" y="10" width="902" height="711"/>
+	<SubTexture name="weather pierna0001" x="10" y="10" width="902" height="711"/>
+	<SubTexture name="weather pierna0002" x="962" y="10" width="902" height="711"/>
+	<SubTexture name="weather pierna0003" x="962" y="10" width="902" height="711"/>
+	<SubTexture name="weather pierna0004" x="10" y="771" width="902" height="711"/>
+	<SubTexture name="weather pierna0005" x="10" y="771" width="902" height="711"/>
+	<SubTexture name="weather pierna0006" x="962" y="771" width="902" height="711"/>
+	<SubTexture name="weather pierna0007" x="962" y="771" width="902" height="711"/>
+	<SubTexture name="weather pierna0008" x="10" y="1532" width="902" height="711"/>
+	<SubTexture name="weather pierna0009" x="10" y="1532" width="902" height="711"/>
+	<SubTexture name="weather pierna0010" x="962" y="1532" width="902" height="711"/>
+	<SubTexture name="weather pierna0011" x="962" y="1532" width="902" height="711"/>
+	<SubTexture name="weather pierna0012" x="10" y="771" width="902" height="711"/>
+	<SubTexture name="weather pierna0013" x="10" y="771" width="902" height="711"/>
+</TextureAtlas>

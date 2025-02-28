@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="P.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="P fail0000" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0001" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0002" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0003" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0004" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0005" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0006" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0007" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0008" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0009" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0010" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0011" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0012" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0013" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0014" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0015" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0016" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0017" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0018" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0019" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0020" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0021" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0022" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0023" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0024" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0025" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0026" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0027" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0028" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0029" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0030" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0031" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0032" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0033" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0034" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0035" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0036" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0037" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0038" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0039" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0040" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0041" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0042" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0043" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0044" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0045" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0046" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0047" x="27" y="27" width="83" height="84" frameX="0" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0048" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0049" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0050" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="P fail0051" x="27" y="27" width="83" height="84" frameX="-4" frameY="0" frameWidth="84" frameHeight="84"/>
+	<SubTexture name="Pidle0000" x="195" y="27" width="71" height="78"/>
+	<SubTexture name="el pp0000" x="183" y="196" width="71" height="79" frameX="0" frameY="0" frameWidth="71" frameHeight="86"/>
+	<SubTexture name="el pp0001" x="183" y="196" width="71" height="79" frameX="0" frameY="0" frameWidth="71" frameHeight="86"/>
+	<SubTexture name="el pp0002" x="27" y="360" width="71" height="79" frameX="0" frameY="-4" frameWidth="71" frameHeight="86"/>
+	<SubTexture name="el pp0003" x="183" y="360" width="71" height="79" frameX="0" frameY="-5" frameWidth="71" frameHeight="86"/>
+	<SubTexture name="el pp0004" x="27" y="524" width="70" height="79" frameX="0" frameY="-7" frameWidth="71" frameHeight="86"/>
+	<SubTexture name="el pp0005" x="27" y="196" width="71" height="79" frameX="0" frameY="-7" frameWidth="71" frameHeight="86"/>
+</TextureAtlas>

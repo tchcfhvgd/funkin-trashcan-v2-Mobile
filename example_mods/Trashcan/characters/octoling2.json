@@ -1,0 +1,50 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-3,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "gaming",
+			"indices": [],
+			"name": "intro"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				-3
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "intro",
+			"indices": [
+				0,
+				0
+			]
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/octoling2",
+	"position": [
+		-80,
+		-40
+	],
+	"healthicon": "octo",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		117,
+		68
+	],
+	"camera_position": [
+		-150,
+		-150
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1.2,
+	"_editor_isPlayer": true
+}

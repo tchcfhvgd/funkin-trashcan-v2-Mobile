@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Woody Idle instancia 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				50
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Woody Up instancia 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-20
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Woody Right instancia 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				-260
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Woody Down instancia 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				280,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Woody Left instancia 1",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/woodypng",
+	"position": [
+		50,
+		80
+	],
+	"healthicon": "wudi",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		204,
+		66
+	],
+	"camera_position": [
+		190,
+		220
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,33 @@
+{
+	"storyName": "Que miras we",
+	"difficulties": "Normal, PNGS",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Bite Dimon",
+			"el magod",
+			[
+				208,
+				3,
+				21
+			],
+			"ZozerKul\n(ft. Jotacast & Zinkk99)"
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "apoco"
+}

@@ -1,0 +1,33 @@
+{
+	"songs": [
+		[
+			"Virtual Insanity",
+			"pucci",
+			[
+				126,
+				213,
+				254
+			],
+			"JustDemianAgain"
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "tilin crecio mucho",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		90,
+		183,
+		255
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

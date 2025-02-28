@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="papu.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="maurice medina0000" x="2" y="2" width="654" height="460" frameX="-1" frameY="0" frameWidth="655" frameHeight="460"/>
+	<SubTexture name="maurice medina0001" x="2" y="2" width="654" height="460" frameX="-1" frameY="0" frameWidth="655" frameHeight="460"/>
+	<SubTexture name="maurice medina0002" x="2" y="474" width="655" height="460"/>
+	<SubTexture name="maurice medina0003" x="2" y="474" width="655" height="460"/>
+</TextureAtlas>

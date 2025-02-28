@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="anasui caracol.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="anasui muerte0000" x="10" y="10" width="733" height="720"/>
+	<SubTexture name="anasui muerte0001" x="10" y="10" width="733" height="720"/>
+	<SubTexture name="anasui muerte0002" x="793" y="10" width="733" height="720"/>
+	<SubTexture name="anasui muerte0003" x="793" y="10" width="733" height="720"/>
+	<SubTexture name="anasui muerte0004" x="10" y="780" width="733" height="720"/>
+	<SubTexture name="anasui muerte0005" x="10" y="780" width="733" height="720"/>
+	<SubTexture name="anasui muerte0006" x="793" y="780" width="733" height="720"/>
+	<SubTexture name="anasui muerte0007" x="793" y="780" width="733" height="720"/>
+	<SubTexture name="anasui muerte0008" x="10" y="10" width="733" height="720"/>
+	<SubTexture name="anasui muerte0009" x="10" y="10" width="733" height="720"/>
+	<SubTexture name="anasui muerte0010" x="793" y="10" width="733" height="720"/>
+	<SubTexture name="anasui muerte0011" x="793" y="10" width="733" height="720"/>
+	<SubTexture name="anasui muerte0012" x="10" y="780" width="733" height="720"/>
+	<SubTexture name="anasui muerte0013" x="10" y="780" width="733" height="720"/>
+</TextureAtlas>

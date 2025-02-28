@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="soniku.png" width="4444" height="4814">
+	<SubTexture name="SonikuDown0000" x="3896" y="1913" width="536" height="624" frameX="-0" frameY="-11" frameWidth="551" frameHeight="636"/>
+	<SubTexture name="SonikuDown0001" x="3900" y="1280" width="543" height="627" frameX="-1" frameY="-8" frameWidth="551" frameHeight="636"/>
+	<SubTexture name="SonikuDown0002" x="3900" y="1280" width="543" height="627" frameX="-1" frameY="-8" frameWidth="551" frameHeight="636"/>
+	<SubTexture name="SonikuDown0003" x="1957" y="3598" width="635" height="548" rotated="true" frameX="-3" frameY="-0" frameWidth="551" frameHeight="636"/>
+	<SubTexture name="SonikuDown0004" x="1957" y="3598" width="635" height="548" rotated="true" frameX="-3" frameY="-0" frameWidth="551" frameHeight="636"/>
+	<SubTexture name="SonikuDown0005" x="3903" y="1" width="540" height="634" frameX="-3" frameY="-1" frameWidth="551" frameHeight="636"/>
+	<SubTexture name="SonikuDown0006" x="3903" y="1" width="540" height="634" frameX="-3" frameY="-1" frameWidth="551" frameHeight="636"/>
+	<SubTexture name="SonikuDown0007" x="3903" y="1" width="540" height="634" frameX="-3" frameY="-1" frameWidth="551" frameHeight="636"/>
+	<SubTexture name="SonikuDown0008" x="3903" y="641" width="536" height="633" frameX="-2" frameY="-2" frameWidth="551" frameHeight="636"/>
+	<SubTexture name="SonikuDown0009" x="3903" y="641" width="536" height="633" frameX="-2" frameY="-2" frameWidth="551" frameHeight="636"/>
+	<SubTexture name="SonikuIdle0000" x="3288" y="2609" width="565" height="645" frameX="-0" frameY="-17" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0001" x="3288" y="2609" width="565" height="645" frameX="-0" frameY="-17" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0002" x="1307" y="3020" width="646" height="555" rotated="true" frameX="-0" frameY="-16" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0003" x="1307" y="3020" width="646" height="555" rotated="true" frameX="-0" frameY="-16" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0004" x="2039" y="2403" width="661" height="545" rotated="true" frameX="-3" frameY="-1" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0005" x="2039" y="2403" width="661" height="545" rotated="true" frameX="-3" frameY="-1" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0006" x="2745" y="1" width="550" height="661" frameX="-9" frameY="-1" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0007" x="2745" y="1" width="550" height="661" frameX="-9" frameY="-1" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0008" x="2745" y="1" width="550" height="661" frameX="-9" frameY="-1" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0009" x="2734" y="690" width="554" height="657" frameX="-8" frameY="-5" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0010" x="2734" y="690" width="554" height="657" frameX="-8" frameY="-5" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0011" x="2734" y="690" width="554" height="657" frameX="-8" frameY="-5" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0012" x="2734" y="1353" width="556" height="655" frameX="-9" frameY="-7" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuIdle0013" x="2734" y="1353" width="556" height="655" frameX="-9" frameY="-7" frameWidth="566" frameHeight="663"/>
+	<SubTexture name="SonikuLeft0000" x="1959" y="3013" width="646" height="579" rotated="true" frameX="-8" frameY="-0" frameWidth="630" frameHeight="647"/>
+	<SubTexture name="SonikuLeft0001" x="2611" y="2954" width="646" height="596" rotated="true" frameX="-0" frameY="-0" frameWidth="630" frameHeight="647"/>
+	<SubTexture name="SonikuLeft0002" x="2611" y="2954" width="646" height="596" rotated="true" frameX="-0" frameY="-0" frameWidth="630" frameHeight="647"/>
+	<SubTexture name="SonikuLeft0003" x="3263" y="3260" width="622" height="637" frameX="-7" frameY="-9" frameWidth="630" frameHeight="647"/>
+	<SubTexture name="SonikuLeft0004" x="3263" y="3260" width="622" height="637" frameX="-7" frameY="-9" frameWidth="630" frameHeight="647"/>
+	<SubTexture name="SonikuLeft0005" x="2611" y="3556" width="596" height="640" frameX="-24" frameY="-6" frameWidth="630" frameHeight="647"/>
+	<SubTexture name="SonikuLeft0006" x="2611" y="3556" width="596" height="640" frameX="-24" frameY="-6" frameWidth="630" frameHeight="647"/>
+	<SubTexture name="SonikuLeft0007" x="2611" y="3556" width="596" height="640" frameX="-24" frameY="-6" frameWidth="630" frameHeight="647"/>
+	<SubTexture name="SonikuLeft0008" x="652" y="3604" width="643" height="583" rotated="true" frameX="-31" frameY="-3" frameWidth="630" frameHeight="647"/>
+	<SubTexture name="SonikuLeft0009" x="652" y="3604" width="643" height="583" rotated="true" frameX="-31" frameY="-3" frameWidth="630" frameHeight="647"/>
+	<SubTexture name="SonikuMissDown0000" x="1" y="4217" width="615" height="596" rotated="true" frameX="-0" frameY="-32" frameWidth="596" frameHeight="648"/>
+	<SubTexture name="SonikuMissDown0001" x="1" y="4217" width="615" height="596" rotated="true" frameX="-0" frameY="-32" frameWidth="596" frameHeight="648"/>
+	<SubTexture name="SonikuMissDown0002" x="1307" y="3581" width="644" height="574" rotated="true" frameX="-11" frameY="-3" frameWidth="596" frameHeight="648"/>
+	<SubTexture name="SonikuMissDown0003" x="1307" y="3581" width="644" height="574" rotated="true" frameX="-11" frameY="-3" frameWidth="596" frameHeight="648"/>
+	<SubTexture name="SonikuMissDown0004" x="2710" y="2014" width="572" height="647" frameX="-12" frameY="-0" frameWidth="596" frameHeight="648"/>
+	<SubTexture name="SonikuMissDown0005" x="2710" y="2014" width="572" height="647" frameX="-12" frameY="-0" frameWidth="596" frameHeight="648"/>
+	<SubTexture name="SonikuMissDown0006" x="1" y="3026" width="647" height="572" rotated="true" frameX="-12" frameY="-0" frameWidth="596" frameHeight="648"/>
+	<SubTexture name="SonikuMissDown0007" x="1" y="3026" width="647" height="572" rotated="true" frameX="-12" frameY="-0" frameWidth="596" frameHeight="648"/>
+	<SubTexture name="SonikuMissDown0008" x="654" y="3026" width="647" height="572" rotated="true" frameX="-12" frameY="-0" frameWidth="596" frameHeight="648"/>
+	<SubTexture name="SonikuMissDown0009" x="654" y="3026" width="647" height="572" rotated="true" frameX="-12" frameY="-0" frameWidth="596" frameHeight="648"/>
+	<SubTexture name="SonikuMissLeft0000" x="1" y="3604" width="645" height="607" rotated="true" frameX="-0" frameY="-2" frameWidth="633" frameHeight="647"/>
+	<SubTexture name="SonikuMissLeft0001" x="1" y="3604" width="645" height="607" rotated="true" frameX="-0" frameY="-2" frameWidth="633" frameHeight="647"/>
+	<SubTexture name="SonikuMissLeft0002" x="3301" y="1" width="596" height="646" frameX="-33" frameY="-1" frameWidth="633" frameHeight="647"/>
+	<SubTexture name="SonikuMissLeft0003" x="3301" y="1" width="596" height="646" frameX="-33" frameY="-1" frameWidth="633" frameHeight="647"/>
+	<SubTexture name="SonikuMissLeft0004" x="3301" y="653" width="593" height="646" frameX="-40" frameY="-1" frameWidth="633" frameHeight="647"/>
+	<SubTexture name="SonikuMissLeft0005" x="3301" y="653" width="593" height="646" frameX="-40" frameY="-1" frameWidth="633" frameHeight="647"/>
+	<SubTexture name="SonikuMissLeft0006" x="3296" y="1305" width="594" height="646" frameX="-39" frameY="-1" frameWidth="633" frameHeight="647"/>
+	<SubTexture name="SonikuMissLeft0007" x="3296" y="1305" width="594" height="646" frameX="-39" frameY="-1" frameWidth="633" frameHeight="647"/>
+	<SubTexture name="SonikuMissLeft0008" x="3296" y="1957" width="593" height="646" frameX="-40" frameY="-1" frameWidth="633" frameHeight="647"/>
+	<SubTexture name="SonikuMissLeft0009" x="3296" y="1957" width="593" height="646" frameX="-40" frameY="-1" frameWidth="633" frameHeight="647"/>
+	<SubTexture name="SonikuMissRight0000" x="1403" y="1830" width="691" height="567" rotated="true" frameX="-32" frameY="-3" frameWidth="599" frameHeight="695"/>
+	<SubTexture name="SonikuMissRight0001" x="1403" y="1830" width="691" height="567" rotated="true" frameX="-32" frameY="-3" frameWidth="599" frameHeight="695"/>
+	<SubTexture name="SonikuMissRight0002" x="1425" y="713" width="695" height="567" rotated="true" frameX="-3" frameY="-0" frameWidth="599" frameHeight="695"/>
+	<SubTexture name="SonikuMissRight0003" x="1425" y="713" width="695" height="567" rotated="true" frameX="-3" frameY="-0" frameWidth="599" frameHeight="695"/>
+	<SubTexture name="SonikuMissRight0004" x="1" y="1857" width="695" height="567" rotated="true" frameX="-0" frameY="-0" frameWidth="599" frameHeight="695"/>
+	<SubTexture name="SonikuMissRight0005" x="1" y="1857" width="695" height="567" rotated="true" frameX="-0" frameY="-0" frameWidth="599" frameHeight="695"/>
+	<SubTexture name="SonikuMissRight0006" x="1" y="1857" width="695" height="567" rotated="true" frameX="-0" frameY="-0" frameWidth="599" frameHeight="695"/>
+	<SubTexture name="SonikuMissRight0007" x="1" y="1857" width="695" height="567" rotated="true" frameX="-0" frameY="-0" frameWidth="599" frameHeight="695"/>
+	<SubTexture name="SonikuMissRight0008" x="702" y="1857" width="695" height="566" rotated="true" frameX="-1" frameY="-0" frameWidth="599" frameHeight="695"/>
+	<SubTexture name="SonikuMissRight0009" x="702" y="1857" width="695" height="566" rotated="true" frameX="-1" frameY="-0" frameWidth="599" frameHeight="695"/>
+	<SubTexture name="SonikuMissUp0000" x="1" y="1" width="533" height="741" frameX="-15" frameY="-0" frameWidth="564" frameHeight="741"/>
+	<SubTexture name="SonikuMissUp0001" x="1" y="1" width="533" height="741" frameX="-15" frameY="-0" frameWidth="564" frameHeight="741"/>
+	<SubTexture name="SonikuMissUp0002" x="540" y="1" width="562" height="710" frameX="-1" frameY="-31" frameWidth="564" frameHeight="741"/>
+	<SubTexture name="SonikuMissUp0003" x="540" y="1" width="562" height="710" frameX="-1" frameY="-31" frameWidth="564" frameHeight="741"/>
+	<SubTexture name="SonikuMissUp0004" x="1" y="748" width="706" height="564" rotated="true" frameX="-0" frameY="-35" frameWidth="564" frameHeight="741"/>
+	<SubTexture name="SonikuMissUp0005" x="1" y="748" width="706" height="564" rotated="true" frameX="-0" frameY="-35" frameWidth="564" frameHeight="741"/>
+	<SubTexture name="SonikuMissUp0006" x="1108" y="1" width="564" height="706" frameX="-0" frameY="-35" frameWidth="564" frameHeight="741"/>
+	<SubTexture name="SonikuMissUp0007" x="1108" y="1" width="564" height="706" frameX="-0" frameY="-35" frameWidth="564" frameHeight="741"/>
+	<SubTexture name="SonikuMissUp0008" x="713" y="717" width="706" height="564" rotated="true" frameX="-0" frameY="-35" frameWidth="564" frameHeight="741"/>
+	<SubTexture name="SonikuMissUp0009" x="713" y="717" width="706" height="564" rotated="true" frameX="-0" frameY="-35" frameWidth="564" frameHeight="741"/>
+	<SubTexture name="SonikuRight0000" x="1361" y="2429" width="672" height="578" rotated="true" frameX="-19" frameY="-6" frameWidth="612" frameHeight="679"/>
+	<SubTexture name="SonikuRight0001" x="2114" y="1389" width="590" height="675" frameX="-18" frameY="-3" frameWidth="612" frameHeight="679"/>
+	<SubTexture name="SonikuRight0002" x="2114" y="1389" width="590" height="675" frameX="-18" frameY="-3" frameWidth="612" frameHeight="679"/>
+	<SubTexture name="SonikuRight0003" x="2126" y="705" width="602" height="678" frameX="-10" frameY="-0" frameWidth="612" frameHeight="679"/>
+	<SubTexture name="SonikuRight0004" x="2126" y="705" width="602" height="678" frameX="-10" frameY="-0" frameWidth="612" frameHeight="679"/>
+	<SubTexture name="SonikuRight0005" x="1" y="2430" width="675" height="590" rotated="true" frameX="-1" frameY="-3" frameWidth="612" frameHeight="679"/>
+	<SubTexture name="SonikuRight0006" x="1" y="2430" width="675" height="590" rotated="true" frameX="-1" frameY="-3" frameWidth="612" frameHeight="679"/>
+	<SubTexture name="SonikuRight0007" x="1" y="2430" width="675" height="590" rotated="true" frameX="-1" frameY="-3" frameWidth="612" frameHeight="679"/>
+	<SubTexture name="SonikuRight0008" x="682" y="2430" width="673" height="584" rotated="true" frameX="-0" frameY="-5" frameWidth="612" frameHeight="679"/>
+	<SubTexture name="SonikuRight0009" x="682" y="2430" width="673" height="584" rotated="true" frameX="-0" frameY="-5" frameWidth="612" frameHeight="679"/>
+	<SubTexture name="SonikuUp0000" x="1678" y="1" width="526" height="698" frameX="-8" frameY="-8" frameWidth="537" frameHeight="706"/>
+	<SubTexture name="SonikuUp0001" x="1" y="1318" width="706" height="533" rotated="true" frameX="-3" frameY="-0" frameWidth="537" frameHeight="706"/>
+	<SubTexture name="SonikuUp0002" x="1" y="1318" width="706" height="533" rotated="true" frameX="-3" frameY="-0" frameWidth="537" frameHeight="706"/>
+	<SubTexture name="SonikuUp0003" x="713" y="1287" width="700" height="537" rotated="true" frameX="-0" frameY="-6" frameWidth="537" frameHeight="706"/>
+	<SubTexture name="SonikuUp0004" x="713" y="1287" width="700" height="537" rotated="true" frameX="-0" frameY="-6" frameWidth="537" frameHeight="706"/>
+	<SubTexture name="SonikuUp0005" x="1419" y="1287" width="689" height="533" rotated="true" frameX="-3" frameY="-17" frameWidth="537" frameHeight="706"/>
+	<SubTexture name="SonikuUp0006" x="1419" y="1287" width="689" height="533" rotated="true" frameX="-3" frameY="-17" frameWidth="537" frameHeight="706"/>
+	<SubTexture name="SonikuUp0007" x="1419" y="1287" width="689" height="533" rotated="true" frameX="-3" frameY="-17" frameWidth="537" frameHeight="706"/>
+	<SubTexture name="SonikuUp0008" x="2210" y="1" width="529" height="683" frameX="-6" frameY="-23" frameWidth="537" frameHeight="706"/>
+	<SubTexture name="SonikuUp0009" x="2210" y="1" width="529" height="683" frameX="-6" frameY="-23" frameWidth="537" frameHeight="706"/>
+</TextureAtlas>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="explosion.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="esplosion0000" x="20" y="20" width="780" height="509" frameX="-134" frameY="-263" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0001" x="20" y="20" width="780" height="509" frameX="-134" frameY="-263" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0002" x="818" y="20" width="929" height="632" frameX="-37" frameY="-184" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0003" x="818" y="20" width="929" height="632" frameX="-37" frameY="-184" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0004" x="1765" y="20" width="1008" height="706" frameX="-30" frameY="-169" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0005" x="1765" y="20" width="1008" height="706" frameX="-30" frameY="-169" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0006" x="20" y="744" width="1046" height="712" frameX="-14" frameY="-155" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0007" x="20" y="744" width="1046" height="712" frameX="-14" frameY="-155" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0008" x="1084" y="744" width="1064" height="729" frameX="0" frameY="-156" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0009" x="2166" y="744" width="1064" height="746" frameX="0" frameY="-139" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0010" x="20" y="1508" width="171" height="211" frameX="-246" frameY="-139" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0011" x="209" y="1508" width="171" height="211" frameX="-249" frameY="-127" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0012" x="398" y="1508" width="170" height="222" frameX="-250" frameY="-128" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0013" x="398" y="1508" width="170" height="222" frameX="-250" frameY="-128" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0014" x="586" y="1508" width="176" height="219" frameX="-246" frameY="-126" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0015" x="586" y="1508" width="176" height="219" frameX="-246" frameY="-126" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0016" x="780" y="1508" width="141" height="255" frameX="-256" frameY="-61" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0017" x="780" y="1508" width="141" height="255" frameX="-256" frameY="-61" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0018" x="939" y="1508" width="164" height="229" frameX="-230" frameY="-37" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0019" x="939" y="1508" width="164" height="229" frameX="-230" frameY="-37" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0020" x="1121" y="1508" width="168" height="214" frameX="-212" frameY="0" frameWidth="1064" frameHeight="885"/>
+	<SubTexture name="esplosion0021" x="1121" y="1508" width="168" height="214" frameX="-212" frameY="0" frameWidth="1064" frameHeight="885"/>
+</TextureAtlas>

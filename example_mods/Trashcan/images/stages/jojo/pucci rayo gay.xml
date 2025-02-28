@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pucci rayo gay.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pucci rayo gay0000" x="10" y="10" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0001" x="10" y="10" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0002" x="10" y="358" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0003" x="10" y="358" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0004" x="10" y="706" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0005" x="10" y="706" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0006" x="10" y="1054" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0007" x="10" y="1054" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0008" x="10" y="10" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0009" x="10" y="10" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0010" x="10" y="358" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0011" x="10" y="358" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0012" x="10" y="706" width="488" height="298"/>
+	<SubTexture name="pucci rayo gay0013" x="10" y="706" width="488" height="298"/>
+</TextureAtlas>

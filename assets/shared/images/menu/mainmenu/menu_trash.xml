@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_trash.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="trash Select0000" x="0" y="0" width="870" height="242" frameX="-8" frameY="-58" frameWidth="891" frameHeight="302"/>
+	<SubTexture name="trash Unselect0000" x="0" y="242" width="861" height="242" frameX="-16" frameY="-58" frameWidth="891" frameHeight="302"/>
+</TextureAtlas>

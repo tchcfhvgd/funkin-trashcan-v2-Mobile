@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="caja.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="beatbox0000" x="2" y="2" width="212" height="164"/>
+	<SubTexture name="beatbox0001" x="2" y="2" width="212" height="164"/>
+	<SubTexture name="beatbox0002" x="2" y="178" width="200" height="154" frameX="-6" frameY="-2" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0003" x="2" y="178" width="200" height="154" frameX="-6" frameY="-2" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0004" x="2" y="344" width="204" height="156" frameX="-4" frameY="-1" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0005" x="2" y="344" width="204" height="156" frameX="-4" frameY="-1" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0006" x="2" y="344" width="204" height="156" frameX="-4" frameY="-1" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0007" x="2" y="344" width="204" height="156" frameX="-4" frameY="-1" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0008" x="2" y="344" width="204" height="156" frameX="-4" frameY="-1" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0009" x="2" y="344" width="204" height="156" frameX="-4" frameY="-1" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0010" x="2" y="344" width="204" height="156" frameX="-4" frameY="-1" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0011" x="2" y="344" width="204" height="156" frameX="-4" frameY="-1" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0012" x="2" y="344" width="204" height="156" frameX="-4" frameY="-1" frameWidth="212" frameHeight="164"/>
+	<SubTexture name="beatbox0013" x="2" y="344" width="204" height="156" frameX="-4" frameY="-1" frameWidth="212" frameHeight="164"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="el sangriento.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="elsangriento0000" x="10" y="10" width="822" height="713" frameX="-8" frameY="-44" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0001" x="10" y="10" width="822" height="713" frameX="-8" frameY="-44" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0002" x="842" y="10" width="826" height="708" frameX="0" frameY="-27" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0003" x="842" y="10" width="826" height="708" frameX="0" frameY="-27" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0004" x="1678" y="10" width="782" height="707" frameX="-27" frameY="0" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0005" x="1678" y="10" width="782" height="707" frameX="-27" frameY="0" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0006" x="1678" y="10" width="782" height="707" frameX="-27" frameY="0" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0007" x="2470" y="10" width="772" height="703" frameX="-32" frameY="0" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0008" x="2470" y="10" width="772" height="703" frameX="-32" frameY="0" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0009" x="2470" y="10" width="772" height="703" frameX="-32" frameY="0" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0010" x="2470" y="10" width="772" height="703" frameX="-32" frameY="0" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0011" x="2470" y="10" width="772" height="703" frameX="-32" frameY="0" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0012" x="2470" y="10" width="772" height="703" frameX="-32" frameY="0" frameWidth="830" frameHeight="757"/>
+	<SubTexture name="elsangriento0013" x="2470" y="10" width="772" height="703" frameX="-32" frameY="0" frameWidth="830" frameHeight="757"/>
+</TextureAtlas>

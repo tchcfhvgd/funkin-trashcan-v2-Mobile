@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				199,
+				-166
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				110,
+				-282
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				51,
+				-152
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				41,
+				-44
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "IdleM"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/marrito",
+	"position": [
+		145,
+		170
+	],
+	"healthicon": "marrito",
+	"flip_x": false,
+	"healthbar_colors": [
+		176,
+		14,
+		0
+	],
+	"camera_position": [
+		-40,
+		40
+	],
+	"sing_duration": 6,
+	"scale": 2,
+	"_editor_isPlayer": false
+}

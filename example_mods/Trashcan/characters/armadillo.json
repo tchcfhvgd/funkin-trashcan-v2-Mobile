@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "ArmadilloIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				16,
+				-2
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "ArmadilloLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				-23
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "ArmadilloDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				59
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "ArmadilloUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				21
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "ArmadilloRight",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/armadillo",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "armadillo",
+	"flip_x": false,
+	"healthbar_colors": [
+		189,
+		189,
+		223
+	],
+	"camera_position": [
+		-460,
+		120
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

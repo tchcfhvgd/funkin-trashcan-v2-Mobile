@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dialogoknights.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="shoveltexto0000" x="5" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0001" x="5" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0002" x="5" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0003" x="5" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0004" x="5" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0005" x="5" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0006" x="211" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0007" x="211" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0008" x="211" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0009" x="211" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0010" x="211" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0011" x="211" y="5" width="201" height="178"/>
+	<SubTexture name="shoveltexto0012" x="5" y="188" width="201" height="178"/>
+	<SubTexture name="shoveltexto0013" x="5" y="188" width="201" height="178"/>
+	<SubTexture name="shoveltexto0014" x="5" y="188" width="201" height="178"/>
+	<SubTexture name="shoveltexto0015" x="5" y="188" width="201" height="178"/>
+	<SubTexture name="shoveltexto0016" x="5" y="188" width="201" height="178"/>
+	<SubTexture name="shoveltexto0017" x="5" y="188" width="201" height="178"/>
+	<SubTexture name="textospecter0000" x="211" y="188" width="201" height="178"/>
+	<SubTexture name="textospecter0001" x="211" y="188" width="201" height="178"/>
+	<SubTexture name="textospecter0002" x="211" y="188" width="201" height="178"/>
+	<SubTexture name="textospecter0003" x="211" y="188" width="201" height="178"/>
+	<SubTexture name="textospecter0004" x="211" y="188" width="201" height="178"/>
+	<SubTexture name="textospecter0005" x="211" y="188" width="201" height="178"/>
+	<SubTexture name="textospecter0006" x="5" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0007" x="5" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0008" x="5" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0009" x="5" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0010" x="5" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0011" x="5" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0012" x="211" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0013" x="211" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0014" x="211" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0015" x="211" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0016" x="211" y="371" width="201" height="178"/>
+	<SubTexture name="textospecter0017" x="211" y="371" width="201" height="178"/>
+</TextureAtlas>

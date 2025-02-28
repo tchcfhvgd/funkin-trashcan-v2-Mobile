@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wezaripoto.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="wezaripoto0000" x="10" y="10" width="511" height="531"/>
+	<SubTexture name="wezaripoto0001" x="10" y="591" width="511" height="531"/>
+	<SubTexture name="wezaripoto0002" x="10" y="1172" width="511" height="531"/>
+	<SubTexture name="wezaripoto0003" x="10" y="1753" width="511" height="531"/>
+</TextureAtlas>

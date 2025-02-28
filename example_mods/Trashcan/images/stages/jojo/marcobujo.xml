@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="marcobujo.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="marcobujo0000" x="10" y="10" width="1013" height="591"/>
+	<SubTexture name="marcobujo0001" x="10" y="10" width="1013" height="591"/>
+	<SubTexture name="marcobujo0002" x="1073" y="10" width="1013" height="591"/>
+	<SubTexture name="marcobujo0003" x="1073" y="10" width="1013" height="591"/>
+	<SubTexture name="marcobujo0004" x="10" y="651" width="1013" height="591"/>
+	<SubTexture name="marcobujo0005" x="10" y="651" width="1013" height="591"/>
+	<SubTexture name="marcobujo0006" x="1073" y="651" width="1013" height="591"/>
+	<SubTexture name="marcobujo0007" x="1073" y="651" width="1013" height="591"/>
+	<SubTexture name="marcobujo0008" x="10" y="10" width="1013" height="591"/>
+	<SubTexture name="marcobujo0009" x="10" y="10" width="1013" height="591"/>
+	<SubTexture name="marcobujo0010" x="1073" y="10" width="1013" height="591"/>
+	<SubTexture name="marcobujo0011" x="1073" y="10" width="1013" height="591"/>
+	<SubTexture name="marcobujo0012" x="10" y="651" width="1013" height="591"/>
+	<SubTexture name="marcobujo0013" x="10" y="651" width="1013" height="591"/>
+</TextureAtlas>

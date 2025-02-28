@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="introcoolrash.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="intro0000" x="2" y="2" width="343" height="492" frameX="0" frameY="-268" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0001" x="357" y="2" width="358" height="349" frameX="-139" frameY="-143" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0002" x="357" y="2" width="358" height="349" frameX="-139" frameY="-143" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0003" x="727" y="2" width="350" height="367" frameX="-257" frameY="-4" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0004" x="727" y="2" width="350" height="367" frameX="-257" frameY="-4" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0005" x="1089" y="2" width="350" height="370" frameX="-270" frameY="0" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0006" x="1089" y="2" width="350" height="370" frameX="-270" frameY="0" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0007" x="1451" y="2" width="351" height="371" frameX="-275" frameY="-3" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0008" x="1451" y="2" width="351" height="371" frameX="-275" frameY="-3" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0009" x="2" y="506" width="291" height="409" frameX="-385" frameY="-71" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0010" x="305" y="506" width="467" height="402" frameX="-407" frameY="-175" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0011" x="305" y="506" width="467" height="402" frameX="-407" frameY="-175" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0012" x="784" y="506" width="491" height="494" frameX="-420" frameY="-83" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0013" x="784" y="506" width="491" height="494" frameX="-420" frameY="-83" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0014" x="1287" y="506" width="509" height="534" frameX="-425" frameY="-43" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0015" x="2" y="1052" width="374" height="417" frameX="-425" frameY="-160" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0016" x="388" y="1052" width="301" height="468" frameX="-440" frameY="-110" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0017" x="388" y="1052" width="301" height="468" frameX="-440" frameY="-110" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0018" x="701" y="1052" width="299" height="487" frameX="-442" frameY="-91" frameWidth="934" frameHeight="760"/>
+	<SubTexture name="intro0019" x="701" y="1052" width="299" height="487" frameX="-442" frameY="-91" frameWidth="934" frameHeight="760"/>
+</TextureAtlas>

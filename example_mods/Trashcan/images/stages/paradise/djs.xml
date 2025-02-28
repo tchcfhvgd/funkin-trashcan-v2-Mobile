@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="djs.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="djs0000" x="2" y="2" width="404" height="479" frameX="0" frameY="-7" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0001" x="2" y="2" width="404" height="479" frameX="0" frameY="-7" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0002" x="418" y="2" width="402" height="486" frameX="-1" frameY="0" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0003" x="418" y="2" width="402" height="486" frameX="-1" frameY="0" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0004" x="832" y="2" width="399" height="487" frameX="-2" frameY="0" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0005" x="832" y="2" width="399" height="487" frameX="-2" frameY="0" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0006" x="2" y="501" width="399" height="485" frameX="-2" frameY="-1" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0007" x="2" y="501" width="399" height="485" frameX="-2" frameY="-1" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0008" x="413" y="501" width="399" height="484" frameX="-2" frameY="-2" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0009" x="413" y="501" width="399" height="484" frameX="-2" frameY="-2" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0010" x="413" y="501" width="399" height="484" frameX="-2" frameY="-2" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0011" x="413" y="501" width="399" height="484" frameX="-2" frameY="-2" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0012" x="413" y="501" width="399" height="484" frameX="-2" frameY="-2" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0013" x="413" y="501" width="399" height="484" frameX="-2" frameY="-2" frameWidth="404" frameHeight="487"/>
+	<SubTexture name="djs0014" x="413" y="501" width="399" height="484" frameX="-2" frameY="-2" frameWidth="404" frameHeight="487"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_credits.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="credits Select0000" x="0" y="0" width="870" height="196" frameX="-8" frameY="-62" frameWidth="889" frameHeight="302"/>
+	<SubTexture name="credits Unselect0000" x="0" y="196" width="861" height="186" frameX="-14" frameY="-62" frameWidth="889" frameHeight="302"/>
+</TextureAtlas>

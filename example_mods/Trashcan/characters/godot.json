@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "GodotIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				40
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "GodotLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-57
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "GodotDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				38
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "GodotUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				36
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "GodotRight",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/godot",
+	"position": [
+		1,
+		-285
+	],
+	"healthicon": "godot",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		131,
+		131
+	],
+	"camera_position": [
+		300,
+		-250
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

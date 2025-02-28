@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="ogorki.png" width="2753" height="2996">
+	<SubTexture name="OgorkiDown0000" x="1097" y="2465" width="535" height="529" rotated="true" frameX="-13" frameY="-19" frameWidth="549" frameHeight="554"/>
+	<SubTexture name="OgorkiDown0001" x="1638" y="2465" width="532" height="530" rotated="true" frameX="-13" frameY="-22" frameWidth="549" frameHeight="554"/>
+	<SubTexture name="OgorkiDown0002" x="1638" y="2465" width="532" height="530" rotated="true" frameX="-13" frameY="-22" frameWidth="549" frameHeight="554"/>
+	<SubTexture name="OgorkiDown0003" x="554" y="2465" width="537" height="530" rotated="true" frameX="-14" frameY="-17" frameWidth="549" frameHeight="554"/>
+	<SubTexture name="OgorkiDown0004" x="554" y="2465" width="537" height="530" rotated="true" frameX="-14" frameY="-17" frameWidth="549" frameHeight="554"/>
+	<SubTexture name="OgorkiDown0005" x="1" y="2465" width="547" height="530" rotated="true" frameX="-13" frameY="-7" frameWidth="549" frameHeight="554"/>
+	<SubTexture name="OgorkiDown0006" x="1" y="2465" width="547" height="530" rotated="true" frameX="-13" frameY="-7" frameWidth="549" frameHeight="554"/>
+	<SubTexture name="OgorkiDown0007" x="1" y="2465" width="547" height="530" rotated="true" frameX="-13" frameY="-7" frameWidth="549" frameHeight="554"/>
+	<SubTexture name="OgorkiDown0008" x="2177" y="1179" width="551" height="529" rotated="true" frameX="-13" frameY="-3" frameWidth="549" frameHeight="554"/>
+	<SubTexture name="OgorkiDown0009" x="2177" y="1179" width="551" height="529" rotated="true" frameX="-13" frameY="-3" frameWidth="549" frameHeight="554"/>
+	<SubTexture name="OgorkiIdle0000" x="1770" y="1762" width="568" height="404" rotated="true" frameX="-9" frameY="-13" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0001" x="1770" y="1762" width="568" height="404" rotated="true" frameX="-9" frameY="-13" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0002" x="2345" y="1" width="407" height="561" frameX="-9" frameY="-20" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0003" x="2345" y="1" width="407" height="561" frameX="-9" frameY="-20" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0004" x="2345" y="568" width="404" height="560" frameX="-9" frameY="-21" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0005" x="2345" y="568" width="404" height="560" frameX="-9" frameY="-21" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0006" x="1163" y="2059" width="567" height="400" rotated="true" frameX="-9" frameY="-15" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0007" x="1163" y="2059" width="567" height="400" rotated="true" frameX="-9" frameY="-15" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0008" x="583" y="2060" width="574" height="398" rotated="true" frameX="-8" frameY="-8" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0009" x="583" y="2060" width="574" height="398" rotated="true" frameX="-8" frameY="-8" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0010" x="1773" y="1179" width="398" height="577" frameX="-7" frameY="-5" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0011" x="1773" y="1179" width="398" height="577" frameX="-7" frameY="-5" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0012" x="1773" y="1179" width="398" height="577" frameX="-7" frameY="-5" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiIdle0013" x="1" y="2060" width="576" height="399" rotated="true" frameX="-7" frameY="-6" frameWidth="416" frameHeight="582"/>
+	<SubTexture name="OgorkiLeft0000" x="1396" y="1" width="463" height="584" frameX="-9" frameY="-7" frameWidth="492" frameHeight="591"/>
+	<SubTexture name="OgorkiLeft0001" x="1183" y="1112" width="584" height="465" rotated="true" frameX="-2" frameY="-7" frameWidth="492" frameHeight="591"/>
+	<SubTexture name="OgorkiLeft0002" x="1183" y="1112" width="584" height="465" rotated="true" frameX="-2" frameY="-7" frameWidth="492" frameHeight="591"/>
+	<SubTexture name="OgorkiLeft0003" x="1" y="1115" width="585" height="465" rotated="true" frameX="-7" frameY="-6" frameWidth="492" frameHeight="591"/>
+	<SubTexture name="OgorkiLeft0004" x="1" y="1115" width="585" height="465" rotated="true" frameX="-7" frameY="-6" frameWidth="492" frameHeight="591"/>
+	<SubTexture name="OgorkiLeft0005" x="1271" y="632" width="584" height="461" rotated="true" frameX="-25" frameY="-7" frameWidth="492" frameHeight="591"/>
+	<SubTexture name="OgorkiLeft0006" x="1271" y="632" width="584" height="461" rotated="true" frameX="-25" frameY="-7" frameWidth="492" frameHeight="591"/>
+	<SubTexture name="OgorkiLeft0007" x="1271" y="632" width="584" height="461" rotated="true" frameX="-25" frameY="-7" frameWidth="492" frameHeight="591"/>
+	<SubTexture name="OgorkiLeft0008" x="592" y="1115" width="585" height="460" rotated="true" frameX="-30" frameY="-6" frameWidth="492" frameHeight="591"/>
+	<SubTexture name="OgorkiLeft0009" x="592" y="1115" width="585" height="460" rotated="true" frameX="-30" frameY="-6" frameWidth="492" frameHeight="591"/>
+	<SubTexture name="OgorkiRight0000" x="1" y="1586" width="583" height="468" rotated="true" frameX="-0" frameY="-5" frameWidth="475" frameHeight="588"/>
+	<SubTexture name="OgorkiRight0001" x="1865" y="1" width="474" height="583" frameX="-0" frameY="-5" frameWidth="475" frameHeight="588"/>
+	<SubTexture name="OgorkiRight0002" x="1865" y="1" width="474" height="583" frameX="-0" frameY="-5" frameWidth="475" frameHeight="588"/>
+	<SubTexture name="OgorkiRight0003" x="592" y="1581" width="583" height="472" rotated="true" frameX="-0" frameY="-5" frameWidth="475" frameHeight="588"/>
+	<SubTexture name="OgorkiRight0004" x="592" y="1581" width="583" height="472" rotated="true" frameX="-0" frameY="-5" frameWidth="475" frameHeight="588"/>
+	<SubTexture name="OgorkiRight0005" x="1181" y="1583" width="583" height="459" rotated="true" frameX="-1" frameY="-5" frameWidth="475" frameHeight="588"/>
+	<SubTexture name="OgorkiRight0006" x="1181" y="1583" width="583" height="459" rotated="true" frameX="-1" frameY="-5" frameWidth="475" frameHeight="588"/>
+	<SubTexture name="OgorkiRight0007" x="1181" y="1583" width="583" height="459" rotated="true" frameX="-1" frameY="-5" frameWidth="475" frameHeight="588"/>
+	<SubTexture name="OgorkiRight0008" x="1865" y="590" width="452" height="583" frameX="-1" frameY="-5" frameWidth="475" frameHeight="588"/>
+	<SubTexture name="OgorkiRight0009" x="1865" y="590" width="452" height="583" frameX="-1" frameY="-5" frameWidth="475" frameHeight="588"/>
+	<SubTexture name="OgorkiUp0000" x="1" y="649" width="636" height="460" rotated="true" frameX="-14" frameY="-12" frameWidth="478" frameHeight="648"/>
+	<SubTexture name="OgorkiUp0001" x="1" y="1" width="459" height="642" frameX="-13" frameY="-6" frameWidth="478" frameHeight="648"/>
+	<SubTexture name="OgorkiUp0002" x="1" y="1" width="459" height="642" frameX="-13" frameY="-6" frameWidth="478" frameHeight="648"/>
+	<SubTexture name="OgorkiUp0003" x="466" y="1" width="459" height="638" frameX="-12" frameY="-10" frameWidth="478" frameHeight="648"/>
+	<SubTexture name="OgorkiUp0004" x="466" y="1" width="459" height="638" frameX="-12" frameY="-10" frameWidth="478" frameHeight="648"/>
+	<SubTexture name="OgorkiUp0005" x="931" y="1" width="459" height="625" frameX="-13" frameY="-22" frameWidth="478" frameHeight="648"/>
+	<SubTexture name="OgorkiUp0006" x="931" y="1" width="459" height="625" frameX="-13" frameY="-22" frameWidth="478" frameHeight="648"/>
+	<SubTexture name="OgorkiUp0007" x="931" y="1" width="459" height="625" frameX="-13" frameY="-22" frameWidth="478" frameHeight="648"/>
+	<SubTexture name="OgorkiUp0008" x="643" y="645" width="622" height="461" rotated="true" frameX="-13" frameY="-25" frameWidth="478" frameHeight="648"/>
+	<SubTexture name="OgorkiUp0009" x="643" y="645" width="622" height="461" rotated="true" frameX="-13" frameY="-25" frameWidth="478" frameHeight="648"/>
+</TextureAtlas>

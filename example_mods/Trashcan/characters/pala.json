@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SKIdle"
+		},
+		{
+			"offsets": [
+				-47,
+				187
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SKUp"
+		},
+		{
+			"offsets": [
+				51,
+				-54
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SKDown"
+		},
+		{
+			"offsets": [
+				-92,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SKRight"
+		},
+		{
+			"offsets": [
+				53,
+				-24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SKLeft"
+		},
+		{
+			"offsets": [
+				51,
+				-24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "SKMissLeft"
+		},
+		{
+			"offsets": [
+				-92,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "SKMissRight"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				180
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "SKMissUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				47,
+				-47
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "SKMissDown",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-11,
+				190
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "Win",
+			"loop": true,
+			"name": "SKWin"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/pala",
+	"position": [
+		100,
+		140
+	],
+	"healthicon": "shovel",
+	"flip_x": true,
+	"healthbar_colors": [
+		56,
+		192,
+		252
+	],
+	"camera_position": [
+		-660,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

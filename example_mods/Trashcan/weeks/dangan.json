@@ -1,0 +1,33 @@
+{
+	"songs": [
+		[
+			"Dead Room",
+			"monomi",
+			[
+				236,
+				77,
+				221
+			],
+			"ZozerKul"
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "hola",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		90,
+		183,
+		255
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

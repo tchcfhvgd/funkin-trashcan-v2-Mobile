@@ -1,0 +1,145 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				98,
+				-54
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				-81
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				20
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-65,
+				-45
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-30
+			],
+			"anim": "spin",
+			"fps": 24,
+			"name": "spin",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				-11
+			],
+			"anim": "muerte",
+			"fps": 24,
+			"name": "muerte",
+			"indices": []
+		},
+		{
+			"offsets": [
+				90,
+				180
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14,
+				14
+			],
+			"fps": 24,
+			"anim": "jump",
+			"loop": false,
+			"name": "jump"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/sonic dimon",
+	"position": [
+		40,
+		200
+	],
+	"healthicon": "sonicdimon",
+	"flip_x": false,
+	"healthbar_colors": [
+		34,
+		32,
+		152
+	],
+	"camera_position": [
+		-160,
+		140
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

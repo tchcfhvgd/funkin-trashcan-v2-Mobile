@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Whitty Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				330,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Whitty Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				12
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Whitty Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				-53
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Whitty Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-58
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Whitty Right",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Whitty new",
+	"position": [
+		90,
+		-10
+	],
+	"healthicon": "whitty",
+	"flip_x": false,
+	"healthbar_colors": [
+		31,
+		39,
+		45
+	],
+	"camera_position": [
+		50,
+		0
+	],
+	"sing_duration": 6,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

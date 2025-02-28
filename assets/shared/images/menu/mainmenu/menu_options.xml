@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_options.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="options Select0000" x="0" y="0" width="870" height="213" frameX="-8" frameY="-45" frameWidth="889" frameHeight="302"/>
+	<SubTexture name="options Unselect0000" x="0" y="213" width="861" height="207" frameX="-14" frameY="-45" frameWidth="889" frameHeight="302"/>
+</TextureAtlas>

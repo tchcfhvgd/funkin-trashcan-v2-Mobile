@@ -1,0 +1,128 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				0,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-loop",
+			"loop": true,
+			"name": "IdleLoop"
+		},
+		{
+			"offsets": [
+				49,
+				-58
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				-157,
+				94
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				-72,
+				90
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				85,
+				-74
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				90,
+				-645
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "Muerto",
+			"loop": false,
+			"name": "Muerto"
+		},
+		{
+			"offsets": [
+				84,
+				-645
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "loopMuerto",
+			"loop": true,
+			"name": "loopMuerto"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/specter",
+	"position": [
+		100,
+		-100
+	],
+	"healthicon": "specter",
+	"flip_x": false,
+	"healthbar_colors": [
+		168,
+		0,
+		32
+	],
+	"camera_position": [
+		-570,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

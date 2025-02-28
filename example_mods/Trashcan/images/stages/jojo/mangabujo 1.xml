@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mangabujo 1.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mangabujoprimeroprimerito0000" x="10" y="10" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0001" x="10" y="10" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0002" x="1073" y="10" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0003" x="1073" y="10" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0004" x="10" y="651" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0005" x="10" y="651" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0006" x="1073" y="651" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0007" x="1073" y="651" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0008" x="1073" y="651" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0009" x="1073" y="651" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0010" x="1073" y="651" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0011" x="1073" y="651" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0012" x="1073" y="651" width="1013" height="591"/>
+	<SubTexture name="mangabujoprimeroprimerito0013" x="1073" y="651" width="1013" height="591"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+{
+	"name": "TrashGallery",
+	"description": "hola",
+	"restart": false,
+	"runsGlobally": false,
+	"color": [97, 159, 188]
+}

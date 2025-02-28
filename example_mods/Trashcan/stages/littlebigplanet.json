@@ -1,0 +1,218 @@
+{
+	"objects": [
+		{
+			"type": "gf"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/littlebigplanet/sky",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "sky",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -744,
+			"y": -289,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/littlebigplanet/leaves",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "leaves",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.1,
+				0.1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": -131,
+			"y": -64,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/littlebigplanet/yard",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "yard",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				0.8,
+				0.8
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/littlebigplanet/street",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "street",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 1174,
+			"y": 650,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/littlebigplanet/caja",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "caja",
+			"firstAnimation": "beatbox",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"indices": [],
+					"fps": 24,
+					"anim": "beatbox",
+					"loop": false,
+					"name": "beatbox"
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/littlebigplanet/overlay",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "overlay",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/littlebigplanet/overlay2",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "overlay2",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		}
+	],
+	"preload": {
+		"images/stages/littlebigplanet/": 3
+	},
+	"camera_opponent": [
+		-100,
+		0
+	],
+	"girlfriend": [
+		0,
+		0
+	],
+	"_editorMeta": {
+		"boyfriend": "sackbf",
+		"gf": "gf",
+		"dad": "sacboi"
+	},
+	"camera_girlfriend": [
+		1200,
+		625
+	],
+	"boyfriend": [
+		1300,
+		255
+	],
+	"opponent": [
+		900,
+		245
+	],
+	"hide_girlfriend": true,
+	"directory": "",
+	"camera_speed": 1,
+	"defaultZoom": 0.6,
+	"stageUI": "",
+	"camera_boyfriend": [
+		100,
+		-10
+	]
+}

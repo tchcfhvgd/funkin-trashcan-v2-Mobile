@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="loverap.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="2" y="2" width="286" height="475" frameX="0" frameY="-6" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0001" x="2" y="2" width="286" height="475" frameX="0" frameY="-6" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0002" x="300" y="2" width="283" height="476" frameX="-3" frameY="-4" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0003" x="300" y="2" width="283" height="476" frameX="-3" frameY="-4" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0004" x="595" y="2" width="284" height="476" frameX="-2" frameY="-2" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0005" x="595" y="2" width="284" height="476" frameX="-2" frameY="-2" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0006" x="2" y="490" width="284" height="476" frameX="-2" frameY="0" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0007" x="2" y="490" width="284" height="476" frameX="-2" frameY="0" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0008" x="298" y="490" width="285" height="476" frameX="-1" frameY="0" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0009" x="298" y="490" width="285" height="476" frameX="-1" frameY="0" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0010" x="298" y="490" width="285" height="476" frameX="-1" frameY="0" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0011" x="298" y="490" width="285" height="476" frameX="-1" frameY="0" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0012" x="298" y="490" width="285" height="476" frameX="-1" frameY="0" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0013" x="298" y="490" width="285" height="476" frameX="-1" frameY="0" frameWidth="286" frameHeight="481"/>
+	<SubTexture name="idle0014" x="298" y="490" width="285" height="476" frameX="-1" frameY="0" frameWidth="286" frameHeight="481"/>
+</TextureAtlas>

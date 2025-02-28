@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="woodypng.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Woody Down instancia 10000" x="1187" y="2048" width="518" height="336" frameX="0" frameY="-45" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Down instancia 10001" x="1187" y="2048" width="518" height="336" frameX="0" frameY="-45" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Down instancia 10002" x="10" y="3020" width="497" height="344" frameX="-8" frameY="-37" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Down instancia 10003" x="10" y="3020" width="497" height="344" frameX="-8" frameY="-37" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Down instancia 10004" x="10" y="2633" width="455" height="377" frameX="-24" frameY="-5" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Down instancia 10005" x="10" y="2633" width="455" height="377" frameX="-24" frameY="-5" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Down instancia 10006" x="10" y="2633" width="455" height="377" frameX="-24" frameY="-5" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Down instancia 10007" x="562" y="2081" width="452" height="381" frameX="-25" frameY="0" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Down instancia 10008" x="562" y="2081" width="452" height="381" frameX="-25" frameY="0" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Down instancia 10009" x="562" y="2081" width="452" height="381" frameX="-25" frameY="0" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Down instancia 10010" x="562" y="2081" width="452" height="381" frameX="-25" frameY="0" frameWidth="518" frameHeight="382"/>
+	<SubTexture name="Woody Idle instancia 10000" x="1309" y="2706" width="251" height="651" frameX="0" frameY="0" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10001" x="1309" y="2706" width="251" height="651" frameX="0" frameY="0" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10002" x="1715" y="2048" width="256" height="648" frameX="-12" frameY="-4" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10003" x="1715" y="2048" width="256" height="648" frameX="-12" frameY="-4" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10004" x="1570" y="2706" width="253" height="642" frameX="-19" frameY="-8" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10005" x="1570" y="2706" width="253" height="642" frameX="-19" frameY="-8" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10006" x="517" y="2706" width="254" height="646" frameX="-19" frameY="-4" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10007" x="517" y="2706" width="254" height="646" frameX="-19" frameY="-4" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10008" x="781" y="2706" width="254" height="646" frameX="-19" frameY="-4" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10009" x="781" y="2706" width="254" height="646" frameX="-19" frameY="-4" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10010" x="1045" y="2706" width="254" height="646" frameX="-19" frameY="-4" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10011" x="1045" y="2706" width="254" height="646" frameX="-19" frameY="-4" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10012" x="1045" y="2706" width="254" height="646" frameX="-19" frameY="-4" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Idle instancia 10013" x="1045" y="2706" width="254" height="646" frameX="-19" frameY="-4" frameWidth="273" frameHeight="652"/>
+	<SubTexture name="Woody Left instancia 10000" x="10" y="482" width="801" height="458" frameX="-7" frameY="-2" frameWidth="844" frameHeight="464"/>
+	<SubTexture name="Woody Left instancia 10001" x="10" y="482" width="801" height="458" frameX="-7" frameY="-2" frameWidth="844" frameHeight="464"/>
+	<SubTexture name="Woody Left instancia 10002" x="10" y="10" width="809" height="462" frameX="0" frameY="0" frameWidth="844" frameHeight="464"/>
+	<SubTexture name="Woody Left instancia 10003" x="10" y="10" width="809" height="462" frameX="0" frameY="0" frameWidth="844" frameHeight="464"/>
+	<SubTexture name="Woody Left instancia 10004" x="829" y="10" width="802" height="463" frameX="-42" frameY="-1" frameWidth="844" frameHeight="464"/>
+	<SubTexture name="Woody Left instancia 10005" x="829" y="10" width="802" height="463" frameX="-42" frameY="-1" frameWidth="844" frameHeight="464"/>
+	<SubTexture name="Woody Left instancia 10006" x="821" y="483" width="792" height="457" frameX="-52" frameY="-4" frameWidth="844" frameHeight="464"/>
+	<SubTexture name="Woody Left instancia 10007" x="821" y="483" width="792" height="457" frameX="-52" frameY="-4" frameWidth="844" frameHeight="464"/>
+	<SubTexture name="Woody Left instancia 10008" x="821" y="483" width="792" height="457" frameX="-52" frameY="-4" frameWidth="844" frameHeight="464"/>
+	<SubTexture name="Woody Left instancia 10009" x="821" y="483" width="792" height="457" frameX="-52" frameY="-4" frameWidth="844" frameHeight="464"/>
+	<SubTexture name="Woody Right instancia 10000" x="623" y="950" width="607" height="548" frameX="-32" frameY="-8" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Right instancia 10001" x="623" y="950" width="607" height="548" frameX="-32" frameY="-8" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Right instancia 10002" x="10" y="950" width="603" height="558" frameX="-29" frameY="0" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Right instancia 10003" x="10" y="950" width="603" height="558" frameX="-29" frameY="0" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Right instancia 10004" x="1240" y="950" width="591" height="540" frameX="-2" frameY="-8" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Right instancia 10005" x="1240" y="950" width="591" height="540" frameX="-2" frameY="-8" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Right instancia 10006" x="1240" y="1500" width="587" height="538" frameX="0" frameY="-9" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Right instancia 10007" x="1240" y="1500" width="587" height="538" frameX="0" frameY="-9" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Right instancia 10008" x="1240" y="1500" width="587" height="538" frameX="0" frameY="-9" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Right instancia 10009" x="1240" y="1500" width="587" height="538" frameX="0" frameY="-9" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Right instancia 10010" x="1240" y="1500" width="587" height="538" frameX="0" frameY="-9" frameWidth="639" frameHeight="558"/>
+	<SubTexture name="Woody Up instancia 10000" x="623" y="1508" width="554" height="563" frameX="0" frameY="0" frameWidth="558" frameHeight="563"/>
+	<SubTexture name="Woody Up instancia 10001" x="623" y="1508" width="554" height="563" frameX="0" frameY="0" frameWidth="558" frameHeight="563"/>
+	<SubTexture name="Woody Up instancia 10002" x="10" y="1518" width="544" height="547" frameX="-14" frameY="-16" frameWidth="558" frameHeight="563"/>
+	<SubTexture name="Woody Up instancia 10003" x="10" y="1518" width="544" height="547" frameX="-14" frameY="-16" frameWidth="558" frameHeight="563"/>
+	<SubTexture name="Woody Up instancia 10004" x="10" y="2075" width="542" height="548" frameX="-15" frameY="-15" frameWidth="558" frameHeight="563"/>
+	<SubTexture name="Woody Up instancia 10005" x="10" y="2075" width="542" height="548" frameX="-15" frameY="-15" frameWidth="558" frameHeight="563"/>
+	<SubTexture name="Woody Up instancia 10006" x="10" y="2075" width="542" height="548" frameX="-15" frameY="-15" frameWidth="558" frameHeight="563"/>
+	<SubTexture name="Woody Up instancia 10007" x="10" y="2075" width="542" height="548" frameX="-15" frameY="-15" frameWidth="558" frameHeight="563"/>
+	<SubTexture name="Woody Up instancia 10008" x="10" y="2075" width="542" height="548" frameX="-15" frameY="-15" frameWidth="558" frameHeight="563"/>
+	<SubTexture name="Woody Up instancia 10009" x="10" y="2075" width="542" height="548" frameX="-15" frameY="-15" frameWidth="558" frameHeight="563"/>
+	<SubTexture name="Woody Up instancia 10010" x="10" y="2075" width="542" height="548" frameX="-15" frameY="-15" frameWidth="558" frameHeight="563"/>
+</TextureAtlas>

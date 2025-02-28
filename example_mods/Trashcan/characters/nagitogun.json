@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"offsets": [-63, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "gunidle"
+		},
+		{
+			"offsets": [64, -12],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "gunleft"
+		},
+		{
+			"offsets": [180, -70],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "gundown"
+		},
+		{
+			"offsets": [161, 70],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "gunup"
+		},
+		{
+			"offsets": [130, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "gunright"
+		},
+		{
+			"offsets": [64, -12],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "missgunleft"
+		},
+		{
+			"offsets": [180, -70],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "missgundown"
+		},
+		{
+			"offsets": [161, 70],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "missgunup"
+		},
+		{
+			"offsets": [130, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "missgunright"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/nagitogun",
+	"position": [-300, 10],
+	"healthicon": "nagito",
+	"flip_x": true,
+	"healthbar_colors": [86, 140, 117],
+	"camera_position": [-90, -10],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

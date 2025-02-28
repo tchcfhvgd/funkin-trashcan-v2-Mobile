@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="judge.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="JudgePhoenix0000" x="17" y="17" width="316" height="308" frameX="-1" frameY="-3" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0001" x="17" y="17" width="316" height="308" frameX="-1" frameY="-3" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0002" x="346" y="17" width="318" height="307" frameX="0" frameY="-4" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0003" x="346" y="17" width="318" height="307" frameX="0" frameY="-4" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0004" x="677" y="17" width="314" height="309" frameX="-2" frameY="-2" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0005" x="677" y="17" width="314" height="309" frameX="-2" frameY="-2" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0006" x="1004" y="17" width="314" height="311" frameX="-2" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0007" x="1004" y="17" width="314" height="311" frameX="-2" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0008" x="1004" y="17" width="314" height="311" frameX="-2" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0009" x="17" y="341" width="312" height="311" frameX="-3" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0010" x="17" y="341" width="312" height="311" frameX="-3" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0011" x="17" y="341" width="312" height="311" frameX="-3" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0012" x="1004" y="17" width="314" height="311" frameX="-2" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgePhoenix0013" x="1004" y="17" width="314" height="311" frameX="-2" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0000" x="342" y="341" width="316" height="308" frameX="-1" frameY="-3" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0001" x="342" y="341" width="316" height="308" frameX="-1" frameY="-3" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0002" x="671" y="341" width="318" height="307" frameX="0" frameY="-4" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0003" x="671" y="341" width="318" height="307" frameX="0" frameY="-4" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0004" x="1002" y="341" width="314" height="309" frameX="-2" frameY="-2" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0005" x="1002" y="341" width="314" height="309" frameX="-2" frameY="-2" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0006" x="17" y="665" width="314" height="311" frameX="-2" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0007" x="17" y="665" width="314" height="311" frameX="-2" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0008" x="17" y="665" width="314" height="311" frameX="-2" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0009" x="344" y="665" width="312" height="311" frameX="-3" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0010" x="344" y="665" width="312" height="311" frameX="-3" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0011" x="344" y="665" width="312" height="311" frameX="-3" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0012" x="17" y="665" width="314" height="311" frameX="-2" frameY="0" frameWidth="318" frameHeight="311"/>
+	<SubTexture name="JudgeGodot0013" x="17" y="665" width="314" height="311" frameX="-2" frameY="0" frameWidth="318" frameHeight="311"/>
+</TextureAtlas>

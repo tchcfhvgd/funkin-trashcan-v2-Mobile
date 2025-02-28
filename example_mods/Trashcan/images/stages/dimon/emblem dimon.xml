@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="emblem dimon.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="emblem0000" x="2" y="2" width="811" height="446"/>
+	<SubTexture name="emblem0001" x="2" y="2" width="811" height="446"/>
+	<SubTexture name="emblem0002" x="2" y="2" width="811" height="446"/>
+	<SubTexture name="emblem0003" x="2" y="463" width="810" height="446" frameX="0" frameY="0" frameWidth="811" frameHeight="446"/>
+	<SubTexture name="emblem0004" x="2" y="463" width="810" height="446" frameX="0" frameY="0" frameWidth="811" frameHeight="446"/>
+	<SubTexture name="emblem0005" x="2" y="463" width="810" height="446" frameX="0" frameY="0" frameWidth="811" frameHeight="446"/>
+</TextureAtlas>

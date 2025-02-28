@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="estatica.miedo.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="estatica0000" x="27" y="27" width="1420" height="800"/>
+	<SubTexture name="estatica0001" x="27" y="912" width="1420" height="800"/>
+	<SubTexture name="estatica0002" x="27" y="1797" width="1420" height="800"/>
+	<SubTexture name="estatica0003" x="27" y="2682" width="1420" height="800"/>
+	<SubTexture name="estatica0004" x="27" y="3567" width="1420" height="800"/>
+</TextureAtlas>

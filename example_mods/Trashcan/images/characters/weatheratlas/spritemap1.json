@@ -1,0 +1,35 @@
+﻿{"ATLAS": {"SPRITES":[ 
+{"SPRITE" : {"name": "0000","x":1491,"y":334,"w":106,"h":137,"rotated": false}},
+{"SPRITE" : {"name": "0001","x":1612,"y":396,"w":102,"h":140,"rotated": false}},
+{"SPRITE" : {"name": "0002","x":1347,"y":0,"w":261,"h":319,"rotated": false}},
+{"SPRITE" : {"name": "0003","x":1623,"y":0,"w":393,"h":144,"rotated": false}},
+{"SPRITE" : {"name": "0004","x":0,"y":0,"w":538,"h":370,"rotated": false}},
+{"SPRITE" : {"name": "0005","x":553,"y":0,"w":382,"h":342,"rotated": false}},
+{"SPRITE" : {"name": "0006","x":1767,"y":159,"w":182,"h":143,"rotated": false}},
+{"SPRITE" : {"name": "0007","x":1124,"y":357,"w":123,"h":150,"rotated": false}},
+{"SPRITE" : {"name": "0008","x":836,"y":357,"w":129,"h":147,"rotated": false}},
+{"SPRITE" : {"name": "0009","x":1623,"y":159,"w":129,"h":222,"rotated": false}},
+{"SPRITE" : {"name": "0010","x":1347,"y":334,"w":129,"h":187,"rotated": false}},
+{"SPRITE" : {"name": "0011","x":553,"y":357,"w":129,"h":185,"rotated": false}},
+{"SPRITE" : {"name": "0012","x":980,"y":357,"w":129,"h":147,"rotated": false}},
+{"SPRITE" : {"name": "0013","x":1491,"y":486,"w":73,"h":123,"rotated": false}},
+{"SPRITE" : {"name": "0014","x":1964,"y":159,"w":68,"h":123,"rotated": false}},
+{"SPRITE" : {"name": "0015","x":950,"y":0,"w":382,"h":342,"rotated": false}},
+{"SPRITE" : {"name": "0016","x":1262,"y":357,"w":50,"h":138,"rotated": true}},
+{"SPRITE" : {"name": "0017","x":139,"y":385,"w":125,"h":140,"rotated": false}},
+{"SPRITE" : {"name": "0018","x":697,"y":357,"w":124,"h":185,"rotated": false}},
+{"SPRITE" : {"name": "0019","x":1906,"y":317,"w":124,"h":198,"rotated": false}},
+{"SPRITE" : {"name": "0020","x":1767,"y":317,"w":124,"h":205,"rotated": false}},
+{"SPRITE" : {"name": "0021","x":0,"y":385,"w":124,"h":142,"rotated": false}},
+{"SPRITE" : {"name": "0022","x":413,"y":385,"w":125,"h":121,"rotated": false}},
+{"SPRITE" : {"name": "0023","x":279,"y":385,"w":119,"h":136,"rotated": false}}
+]},
+"meta": {
+"app": "Adobe Animate",
+"version": "23.0.2.103",
+"image": "spritemap1.png",
+"format": "RGBA8888",
+"size": {"w":2032,"h":609},
+"resolution": "1"
+}
+}

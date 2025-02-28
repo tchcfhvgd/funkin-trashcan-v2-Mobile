@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="franjas.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Símbolo 20000" x="10" y="10" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20001" x="1402" y="10" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20002" x="2794" y="10" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20003" x="4186" y="10" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20004" x="5578" y="10" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20005" x="10" y="798" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20006" x="1402" y="798" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20007" x="2794" y="798" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20008" x="4186" y="798" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20009" x="5578" y="798" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20010" x="10" y="1586" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20011" x="1402" y="1586" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20012" x="2794" y="1586" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20013" x="4186" y="1586" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20014" x="5578" y="1586" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20015" x="10" y="2374" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20016" x="1402" y="2374" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20017" x="2794" y="2374" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20018" x="4186" y="2374" width="1382" height="778"/>
+	<SubTexture name="Símbolo 20019" x="5578" y="2374" width="1382" height="778"/>
+</TextureAtlas>

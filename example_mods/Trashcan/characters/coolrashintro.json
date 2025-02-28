@@ -1,0 +1,36 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "intro",
+			"indices": [],
+			"name": "intro"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/introcoolrash",
+	"position": [
+		-334,
+		238
+	],
+	"healthicon": "marrito",
+	"flip_x": false,
+	"healthbar_colors": [
+		176,
+		14,
+		0
+	],
+	"camera_position": [
+		-89,
+		-101
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

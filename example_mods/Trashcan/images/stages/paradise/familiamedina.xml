@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="familiamedina.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="familia medina0000" x="2" y="2" width="424" height="281"/>
+	<SubTexture name="familia medina0001" x="2" y="2" width="424" height="281"/>
+	<SubTexture name="familia medina0002" x="2" y="295" width="424" height="281"/>
+	<SubTexture name="familia medina0003" x="2" y="295" width="424" height="281"/>
+</TextureAtlas>

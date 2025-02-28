@@ -1,0 +1,94 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				30,
+				-291
+			],
+			"anim": "idle-loop",
+			"fps": 20,
+			"name": "Idle",
+			"indices": [
+				7,
+				8
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				32,
+				-290
+			],
+			"anim": "singRIGHT",
+			"fps": 20,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				-292
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-291
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				27,
+				-290
+			],
+			"anim": "singDOWN",
+			"fps": 20,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-291
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "Up",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/brick",
+	"position": [
+		160,
+		160
+	],
+	"healthicon": "brick",
+	"flip_x": false,
+	"healthbar_colors": [
+		136,
+		168,
+		200
+	],
+	"camera_position": [
+		-90,
+		390
+	],
+	"sing_duration": 4.00000000000002,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "ColdDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-67,
+				40
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "ColdUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				-35
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "ColdRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				97,
+				-1
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "ColdMissDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				81,
+				-11
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "ColdMissLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				49,
+				8
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "ColdLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				-27
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "ColdMissRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				60
+			],
+			"anim": "singUPmiss",
+			"fps": 25,
+			"name": "ColdMissUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-65,
+				4
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "ColdIdle",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/coldsteel",
+	"position": [
+		180,
+		120
+	],
+	"healthicon": "coldsteel",
+	"flip_x": true,
+	"healthbar_colors": [
+		163,
+		73,
+		164
+	],
+	"camera_position": [
+		200,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 0.8,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="maya.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Maya0000" x="17" y="17" width="867" height="833" frameX="0" frameY="-26" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0001" x="17" y="17" width="867" height="833" frameX="0" frameY="-26" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0002" x="897" y="17" width="867" height="817" frameX="0" frameY="-32" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0003" x="897" y="17" width="867" height="817" frameX="0" frameY="-32" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0004" x="1777" y="17" width="867" height="805" frameX="0" frameY="-39" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0005" x="1777" y="17" width="867" height="805" frameX="0" frameY="-39" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0006" x="2657" y="17" width="867" height="824" frameX="0" frameY="-17" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0007" x="2657" y="17" width="867" height="824" frameX="0" frameY="-17" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0008" x="17" y="863" width="867" height="835" frameX="0" frameY="-7" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0009" x="17" y="863" width="867" height="835" frameX="0" frameY="-7" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0010" x="897" y="863" width="867" height="844" frameX="0" frameY="-1" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0011" x="897" y="863" width="867" height="844" frameX="0" frameY="-1" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0012" x="1777" y="863" width="867" height="847" frameX="0" frameY="0" frameWidth="867" frameHeight="859"/>
+	<SubTexture name="Maya0013" x="1777" y="863" width="867" height="847" frameX="0" frameY="0" frameWidth="867" frameHeight="859"/>
+</TextureAtlas>

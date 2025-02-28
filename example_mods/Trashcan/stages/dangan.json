@@ -1,0 +1,154 @@
+{
+	"camera_boyfriend": [
+		-300,
+		0
+	],
+	"_editorMeta": {
+		"boyfriend": "nagito",
+		"gf": "gf",
+		"dad": "monomi"
+	},
+	"preload": {
+		"images/stages/dangan/room": 3,
+		"images/stages/dangan/pistola": 3,
+		"images/stages/dangan/overlay": 3
+	},
+	"girlfriend": [
+		400,
+		130
+	],
+	"stageUI": "",
+	"boyfriend": [
+		1600,
+		175
+	],
+	"objects": [
+		{
+			"x": -875,
+			"y": -317,
+			"scale": [
+				2,
+				2
+			],
+			"image": "stages/dangan/room",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "room",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		},
+		{
+			"x": 1005,
+			"y": 665,
+			"scale": [
+				1,
+				1
+			],
+			"image": "stages/dangan/pistola",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "pistola",
+			"firstAnimation": "idle",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 0.0000001,
+			"animations": [
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"indices": [],
+					"fps": 24,
+					"anim": "idle",
+					"loop": false,
+					"name": "idle"
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"indices": [],
+					"fps": 24,
+					"anim": "nogun",
+					"loop": false,
+					"name": "nogun"
+				},
+				{
+					"offsets": [
+						0,
+						1
+					],
+					"indices": [],
+					"fps": 24,
+					"anim": "spawn",
+					"loop": false,
+					"name": "spawn"
+				}
+			],
+			"type": "animatedSprite"
+		},
+		{
+			"type": "gf"
+		},
+		{
+			"type": "dad"
+		},
+		{
+			"type": "boyfriend"
+		},
+		{
+			"x": -875,
+			"y": -317,
+			"scale": [
+				2,
+				2
+			],
+			"image": "stages/dangan/overlay",
+			"flipX": false,
+			"filters": 3,
+			"color": "FFFFFF",
+			"angle": 0,
+			"name": "overlay",
+			"antialiasing": true,
+			"flipY": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"type": "sprite"
+		}
+	],
+	"camera_girlfriend": [
+		600,
+		550
+	],
+	"defaultZoom": 0.5,
+	"camera_speed": 1,
+	"directory": "",
+	"opponent": [
+		560,
+		400
+	],
+	"camera_opponent": [
+		50,
+		0
+	],
+	"hide_girlfriend": true
+}

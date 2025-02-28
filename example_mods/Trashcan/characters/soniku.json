@@ -1,0 +1,124 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-59,
+				-16
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SonikuDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-96,
+				39
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SonikuUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-101,
+				17
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SonikuRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-3
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SonikuLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-33,
+				-7
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "SonikuMissDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-2
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "SonikuMissLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-122,
+				28
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "SonikuMissRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-75,
+				63
+			],
+			"anim": "singUPmiss",
+			"fps": 25,
+			"name": "SonikuMissUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-65,
+				4
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SonikuIdle",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/soniku",
+	"position": [
+		90,
+		160
+	],
+	"healthicon": "soniku",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		225,
+		200
+	],
+	"camera_position": [
+		140,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 0.8,
+	"_editor_isPlayer": false
+}

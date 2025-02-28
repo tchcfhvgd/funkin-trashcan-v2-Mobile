@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="clot.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="clot0000" x="4" y="4" width="181" height="103" frameX="0" frameY="-11" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0001" x="4" y="4" width="181" height="103" frameX="0" frameY="-11" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0002" x="191" y="4" width="176" height="106" frameX="-2" frameY="-8" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0003" x="191" y="4" width="176" height="106" frameX="-2" frameY="-8" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0004" x="4" y="116" width="167" height="114" frameX="-11" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0005" x="4" y="116" width="167" height="114" frameX="-11" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0006" x="4" y="116" width="167" height="114" frameX="-11" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0007" x="177" y="116" width="165" height="114" frameX="-10" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0008" x="177" y="116" width="165" height="114" frameX="-10" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0009" x="177" y="116" width="165" height="114" frameX="-10" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0010" x="177" y="116" width="165" height="114" frameX="-10" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0011" x="177" y="116" width="165" height="114" frameX="-10" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0012" x="177" y="116" width="165" height="114" frameX="-10" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0013" x="177" y="116" width="165" height="114" frameX="-10" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0014" x="4" y="236" width="183" height="104" frameX="-6" frameY="-10" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0015" x="4" y="236" width="183" height="104" frameX="-6" frameY="-10" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0016" x="193" y="236" width="183" height="106" frameX="-8" frameY="-8" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0017" x="193" y="236" width="183" height="106" frameX="-8" frameY="-8" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0018" x="4" y="348" width="166" height="114" frameX="-10" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0019" x="4" y="348" width="166" height="114" frameX="-10" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0020" x="4" y="348" width="166" height="114" frameX="-10" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0021" x="4" y="116" width="167" height="114" frameX="-11" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0022" x="4" y="116" width="167" height="114" frameX="-11" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0023" x="4" y="116" width="167" height="114" frameX="-11" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0024" x="4" y="116" width="167" height="114" frameX="-11" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0025" x="4" y="116" width="167" height="114" frameX="-11" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0026" x="4" y="116" width="167" height="114" frameX="-11" frameY="0" frameWidth="191" frameHeight="114"/>
+	<SubTexture name="clot0027" x="4" y="116" width="167" height="114" frameX="-11" frameY="0" frameWidth="191" frameHeight="114"/>
+</TextureAtlas>

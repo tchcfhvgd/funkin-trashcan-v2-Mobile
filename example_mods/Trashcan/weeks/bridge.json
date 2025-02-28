@@ -1,0 +1,33 @@
+{
+	"songs": [
+		[
+			"Bridge",
+			"Godot",
+			[
+				80,
+				198,
+				157
+			],
+			"ZozerKul"
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "escalera",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		210,
+		162,
+		86
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

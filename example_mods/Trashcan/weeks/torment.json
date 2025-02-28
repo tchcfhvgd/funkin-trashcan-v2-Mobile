@@ -1,0 +1,33 @@
+{
+	"storyName": "Que miras we",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Torment",
+			"specter",
+			[
+				187,
+				27,
+				39
+			],
+			"Zinkk99\n(ft. ZozerKul)"
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "chink"
+}
