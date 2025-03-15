@@ -1,6 +1,6 @@
 package states;
 
-import objects.AttachedSprite;
+import objects.*;
 
 class CreditsState extends MusicBeatState
 {

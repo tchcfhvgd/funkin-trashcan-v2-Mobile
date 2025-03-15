@@ -21,7 +21,6 @@ class VideoSprite extends FlxSpriteGroup {
 	private var videoName:String;
 
 	public var waiting:Bool = false;
-	var coolVolume:Int = 1;
 
 	public function new(videoName:String, isWaiting:Bool, canSkip:Bool = false, shouldLoop:Dynamic = false, addBehind:Bool = false) {
 		super();
@@ -43,7 +42,8 @@ class VideoSprite extends FlxSpriteGroup {
 		// initialize sprites
 		videoSprite = new FlxVideoSprite();
 		videoSprite.antialiasing = ClientPrefs.data.antialiasing;
-		addBehind ? insert(0, videoSprite) : add(videoSprite);
+		if (addBehind) insert(0, videoSprite);
+		else add(videoSprite);
 		if(canSkip) this.canSkip = true;
 
 		// callbacks
@@ -74,7 +74,12 @@ class VideoSprite extends FlxSpriteGroup {
 		if(alreadyDestroyed)
 			return;
 
-		trace('Video destroyed');
+		if (videoSprite == null) {
+			trace("When ases tus momo en video");
+			remove(videoSprite);
+		}
+		else	trace('Video destroyed');
+		
 		if(cover != null)
 		{
 			remove(cover);

@@ -269,6 +269,9 @@ class PlayState extends MusicBeatState
 	public static var nextReloadAll:Bool = false;
 	override public function create()
 	{
+
+		trace('loaded song name: ${Song.loadedSongName}');
+		trace('song playing: ${SONG.song} (${SONG.song.toLowerCase()})');
 		//trace('Playback Rate: ' + playbackRate);
 		_lastLoadedModDirectory = Mods.currentModDirectory;
 		Paths.clearStoredMemory();
@@ -1158,7 +1161,6 @@ class PlayState extends MusicBeatState
 		else tempScore = Language.getPhrase('score_text_instakill', 'Score: {1} | Rating: {2}', [songScore, str]);
 		scoreTxt.text = tempScore;
 
-		trace(SONG.song);
 		if (SONG.song == "gallery") discordScore = 'Viewing the Gallery';
 		else	discordScore = '${SONG.song} | Score: ${songScore} ${ratingFC == "" ? "" : '($ratingFC)'}';
 
@@ -2451,8 +2453,9 @@ class PlayState extends MusicBeatState
 		{
 			#if !switch
 			var percent:Float = ratingPercent;
+			var currentSong:String = SONG.song.toLowerCase();
 			if(Math.isNaN(percent)) percent = 0;
-			Highscore.saveScore(Song.loadedSongName, songScore, storyDifficulty, percent, ratingFC);
+			if (!ClientPrefs.getGameplaySetting('practice') && !ClientPrefs.getGameplaySetting('botplay') && currentSong.replace(' ', '-') == Song.loadedSongName)	Highscore.saveScore(Song.loadedSongName, songScore, storyDifficulty, percent, ratingFC);
 			#end
 			playbackRate = 1;
 
