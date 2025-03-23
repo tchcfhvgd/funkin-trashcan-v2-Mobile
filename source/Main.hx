@@ -24,7 +24,9 @@ import lime.system.System as LimeSystem;
 #if linux
 import lime.graphics.Image;
 #end
-
+#if COPYSTATE_ALLOWED
+import states.CopyState;
+#end
 #if desktop
 import backend.ALSoftConfig; // Just to make sure DCE doesn't remove this, since it's not directly referenced anywhere else.
 #end
