@@ -58,6 +58,7 @@ import backend.Difficulty;
 import backend.Mods;
 import backend.Language;
 import flixel.addons.display.FlxBackdrop;
+import mobile.backend.StorageUtil;
 
 import backend.ui.*; //Psych-UI
 
@@ -77,6 +78,7 @@ import flixel.sound.FlxSound;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxCamera;
+import flixel.util.FlxDestroyUtil;
 import flixel.math.FlxMath;
 import flixel.math.FlxPoint;
 import flixel.util.FlxColor;
