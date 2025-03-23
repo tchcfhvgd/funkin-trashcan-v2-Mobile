@@ -342,8 +342,10 @@ class PlayState extends MusicBeatState
 
 		curStage = SONG.stage;
 
+		#if DISCORD_ALLOWED
 		discLogo = PlayState.SONG.song.replace(' ', '_');
 		trace('current logo loaded: $discLogo');
+		#end
 
 		var stageData:StageFile = StageData.getStageFile(curStage);
 		defaultCamZoom = stageData.defaultZoom;
