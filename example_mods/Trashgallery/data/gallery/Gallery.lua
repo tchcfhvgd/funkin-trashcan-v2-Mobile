@@ -75,17 +75,20 @@ function onCreate()
     setTextString('text2', 'Menu concept')
     screenCenter('text1', 'x')
     screenCenter('text2', 'x')
+    
+    addTouchPad('LEFT_RIGHT', 'B');
+	addTouchPadCamera();
 end
 
 function onUpdate()
 	setTextString('counter', currentIndex .. '/' .. #images)
-	if keyJustPressed('back') then
+	if keyJustPressed('back') or touchPadJustPressed("B") then
 		endSong()
 	end
-	if keyJustPressed('right') then
+	if keyJustPressed('right') or touchPadJustPressed('RIGHT') then
         playAnim('flecha1', 'select', true)
         changeImage(1)
-    elseif keyJustPressed('left') then
+    elseif keyJustPressed('left') or touchPadJustPressed('LEFT') then
         changeImage(-1)
         playAnim('flecha0', 'select', true)
     end
