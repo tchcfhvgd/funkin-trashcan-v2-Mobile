@@ -332,6 +332,46 @@ class HScript extends Iris
 		#else
 		set('parentLua', null);
 		#end
+		set("addTouchPad", (DPadMode:String, ActionMode:String) -> {
+			PlayState.instance.makeLuaTouchPad(DPadMode, ActionMode);
+			PlayState.instance.addLuaTouchPad();
+		  });
+  
+		set("removeTouchPad", () -> {
+			PlayState.instance.removeLuaTouchPad();
+		});
+  
+		set("addTouchPadCamera", () -> {
+			if(PlayState.instance.luaTouchPad == null){
+				FunkinLua.luaTrace('addTouchPadCamera: TPAD does not exist.');
+				return;
+			}
+			PlayState.instance.addLuaTouchPadCamera();
+		});
+  
+		set("touchPadJustPressed", function(button:Dynamic):Bool {
+			if(PlayState.instance.luaTouchPad == null){
+			  //FunkinLua.luaTrace('touchPadJustPressed: TPAD does not exist.');
+			  return false;
+			}
+		  return PlayState.instance.luaTouchPadJustPressed(button);
+		});
+  
+		set("touchPadPressed", function(button:Dynamic):Bool {
+			if(PlayState.instance.luaTouchPad == null){
+				//FunkinLua.luaTrace('touchPadPressed: TPAD does not exist.');
+				return false;
+			}
+			return PlayState.instance.luaTouchPadPressed(button);
+		});
+  
+		set("touchPadJustReleased", function(button:Dynamic):Bool {
+			if(PlayState.instance.luaTouchPad == null){
+				//FunkinLua.luaTrace('touchPadJustReleased: TPAD does not exist.');
+				return false;
+			}
+			return PlayState.instance.luaTouchPadJustReleased(button);
+		});
 		set('this', this);
 		set('game', FlxG.state);
 		set('controls', Controls.instance);
