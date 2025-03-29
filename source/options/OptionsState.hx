@@ -28,13 +28,7 @@ class OptionsState extends MusicBeatState
 			case 'Note Colors':
 				openSubState(new options.NotesColorSubState());
 			case 'Controls':
-				if (controls.mobileC)
-				{
-					persistentUpdate = false;
-					openSubState(new mobile.substates.MobileControlSelectSubState());
-				}
-				else
-					openSubState(new options.ControlsSubState());
+				openSubState(new options.ControlsSubState());
 			case 'Graphics':
 				openSubState(new options.GraphicsSettingsSubState());
 			case 'Visuals':
@@ -109,7 +103,7 @@ class OptionsState extends MusicBeatState
 
 		super.create();
 
-		addTouchPad('UP_DOWN', 'A_B_C');
+		addTouchPad('UP_DOWN', 'A_B_X_Y');
 	}
 
 	override function closeSubState()
@@ -133,9 +127,18 @@ class OptionsState extends MusicBeatState
 		if (controls.UI_DOWN_P)
 			changeSelection(1);
 
-		if(touchPad != null && touchPad.buttonC.justPressed)
+		if(touchPad != null && touchPad.buttonX.justPressed)
+		{
+			openSubState(new mobile.substates.MobileControlSelectSubState());	
+			removeTouchPad();
+			persistentUpdate = false;
+		}
+
+		if(touchPad != null && touchPad.buttonY.justPressed)
 		{
 			openSubState(new mobile.options.MobileOptionsSubState());
+			removeTouchPad();
+			persistentUpdate = false;
 		}
 		
 		if (controls.BACK)
