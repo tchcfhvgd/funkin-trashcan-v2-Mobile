@@ -113,6 +113,8 @@ class MainMenuState extends MusicBeatState
 		}
 		changeItem();
 
+		addTouchPad('UP_DOWN', 'A_B');
+
 		#if ACHIEVEMENTS_ALLOWED
 		// Unlocks "Freaky on a Friday Night" achievement if it's a Friday and between 18:00 PM and 23:59 PM
 		var leDate = Date.now();
