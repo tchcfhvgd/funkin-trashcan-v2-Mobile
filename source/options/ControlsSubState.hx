@@ -41,7 +41,9 @@ class ControlsSubState extends MusicBeatSubstate
 		[false],
 		[false, 'DEBUG'],
 		[false, 'Key 1', 'debug_1', 'Debug Key #1'],
-		[false, 'Key 2', 'debug_2', 'Debug Key #2']
+		[false, 'Key 2', 'debug_2', 'Debug Key #2'],
+		[false, 'WINDOW'],
+		[false, 'Fullscreen', 'fullscreen', 'Fullscreen Toggel']
 	];
 	var curOptions:Array<Int>;
 	var curOptionsValid:Array<Int>;
@@ -62,6 +64,8 @@ class ControlsSubState extends MusicBeatSubstate
 	
 	public function new()
 	{
+		controls.isInSubstate = true;
+
 		super();
 
 		#if DISCORD_ALLOWED
@@ -72,16 +76,17 @@ class ControlsSubState extends MusicBeatSubstate
 		options.push([true]);
 		options.push([true, defaultKey]);
 
-		bg = new FlxSprite().loadGraphic(Paths.image('menu/bg'));
+		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg.color = keyboardColor;
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.screenCenter();
 		add(bg);
 
-		var patron = new FlxBackdrop(Paths.image('menu/patron_zozer'));
-		patron.setGraphicSize(Std.int(patron.width * 0.5));
-		patron.scrollFactor.set();
-		patron.velocity.set(-40, -40);
-		add(patron);
+		var grid:FlxBackdrop = new FlxBackdrop(FlxGridOverlay.createGrid(80, 80, 160, 160, true, 0x33FFFFFF, 0x0));
+		grid.velocity.set(40, 40);
+		grid.alpha = 0;
+		FlxTween.tween(grid, {alpha: 1}, 0.5, {ease: FlxEase.quadOut});
+		add(grid);
 
 		grpDisplay = new FlxTypedGroup<Alphabet>();
 		add(grpDisplay);
@@ -97,30 +102,20 @@ class ControlsSubState extends MusicBeatSubstate
 		grpBinds = new FlxTypedGroup<Alphabet>();
 		add(grpBinds);
 
-		controllerSpr = new FlxSprite(50, 90).loadGraphic(Paths.image('controllertype'), true, 82, 60);
+		controllerSpr = new FlxSprite(50, 40).loadGraphic(Paths.image('controllertype'), true, 82, 60);
 		controllerSpr.antialiasing = ClientPrefs.data.antialiasing;
 		controllerSpr.animation.add('keyboard', [0], 1, false);
 		controllerSpr.animation.add('gamepad', [1], 1, false);
 		add(controllerSpr);
 
-		var text:Alphabet = new Alphabet(60, 140, 'CTRL', false);
+		var text:Alphabet = new Alphabet(60, 90, 'CTRL', false);
 		text.alignment = CENTERED;
 		text.setScale(0.4);
 		add(text);
 
-
 		createTexts();
-
-		for (num in 1...3) {
-			var barra = new FlxSprite(0, 0).loadGraphic(Paths.image('menu/title/bar$num'));
-			barra.antialiasing = ClientPrefs.data.antialiasing;
-			barra.screenCenter();
-			add(barra);
-			switch (num) {
-				case 1: barra.y = 50; 	//barra de abajo
-				case 2:	barra.y = -50;  //barra de arriba
-			}
-		}
+		
+		addTouchPad('NONE', 'B');
 	}
 
 	var lastID:Int = 0;
@@ -291,8 +286,9 @@ class ControlsSubState extends MusicBeatSubstate
 
 		if(!binding)
 		{
-			if(FlxG.keys.justPressed.ESCAPE || FlxG.gamepads.anyJustPressed(B))
+			if(touchPad.buttonB.justPressed || FlxG.keys.justPressed.ESCAPE || FlxG.gamepads.anyJustPressed(B))
 			{
+				controls.isInSubstate = false;
 				close();
 				return;
 			}
@@ -318,8 +314,11 @@ class ControlsSubState extends MusicBeatSubstate
 					bindingText = new Alphabet(FlxG.width / 2, 160, Language.getPhrase('controls_rebinding', 'Rebinding {1}', [options[curOptions[curSelected]][3]]), false);
 					bindingText.alignment = CENTERED;
 					add(bindingText);
+
+					final escape:String = (controls.mobileC) ? "B" : "ESC";
+					final backspace:String = (controls.mobileC) ? "C" : "Backspace";
 					
-					bindingText2 = new Alphabet(FlxG.width / 2, 340, Language.getPhrase('controls_rebinding2', 'Hold ESC to Cancel\nHold Backspace to Delete'), true);
+					bindingText2 = new Alphabet(FlxG.width / 2, 340, Language.getPhrase('controls_rebinding2', 'Hold {1} to Cancel\nHold {2} to Delete', [escape, backspace]), true);
 					bindingText2.alignment = CENTERED;
 					add(bindingText2);
 

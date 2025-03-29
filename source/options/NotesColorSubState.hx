@@ -55,16 +55,17 @@ class NotesColorSubState extends MusicBeatSubstate
 		#end
 		
 		onPixel = PlayState.isPixelStage;
-		var bg = new FlxSprite().loadGraphic(Paths.image('menu/bg'));
-		bg.antialiasing = ClientPrefs.data.antialiasing;
+		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg.color = 0xFFEA71FD;
 		bg.screenCenter();
+		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);
 
-		var patron = new FlxBackdrop(Paths.image('menu/patron_zozer'));
-		patron.setGraphicSize(Std.int(patron.width * 0.5));
-		patron.scrollFactor.set();
-		patron.velocity.set(-40, -40);
-		add(patron);
+		var grid:FlxBackdrop = new FlxBackdrop(FlxGridOverlay.createGrid(80, 80, 160, 160, true, 0x33FFFFFF, 0x0));
+		grid.velocity.set(40, 40);
+		grid.alpha = 0;
+		FlxTween.tween(grid, {alpha: 1}, 0.5, {ease: FlxEase.quadOut});
+		add(grid);
 
 		modeBG = new FlxSprite(215, 85).makeGraphic(315, 115, FlxColor.BLACK);
 		modeBG.visible = false;
@@ -89,18 +90,7 @@ class NotesColorSubState extends MusicBeatSubstate
 		bg.alpha = 0.25;
 		add(bg);
 		
-		for (num in 1...3) {
-			var barra = new FlxSprite(0, 0).loadGraphic(Paths.image('menu/title/bar$num'));
-			barra.antialiasing = ClientPrefs.data.antialiasing;
-			barra.screenCenter();
-			add(barra);
-			switch (num) {
-				case 1: barra.y = 50; 	//barra de abajo
-				case 2:	barra.y = -50;  //barra de arriba
-			}
-		}
-		
-		var text:Alphabet = new Alphabet(50, 106, 'CTRL', false);
+		var text:Alphabet = new Alphabet((controls.mobileC) ? 44 : 50, 86, (controls.mobileC) ? 'PRESS' : 'CTRL', false);
 		text.alignment = CENTERED;
 		text.setScale(0.4);
 		add(text);
@@ -155,15 +145,22 @@ class NotesColorSubState extends MusicBeatSubstate
 		updateNotes(true);
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.6);
 
-		var tipX = 5;
-		var tipY = 680;
+		var tipX = 20;
+		var tipY = 660;
+		var reset:String;
 
-		var tip:FlxText = new FlxText(tipX, tipY, 0, Language.getPhrase('note_colors_tip', 'Press RESET to Reset the selected Note Part.'), 16);
+		if (controls.mobileC) {
+			reset = "C";
+			tipY = 0;
+		} else
+			reset = "RESET";
+
+		var tip:FlxText = new FlxText(tipX, tipY, 0, Language.getPhrase('note_colors_tip', 'Press {1} to Reset the selected Note Part.', [reset]), 16);
 		tip.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		tip.borderSize = 2;
 		add(tip);
 
-		tipTxt = new FlxText(tipX, tipY + 18, 0, '', 16);
+		tipTxt = new FlxText(tipX, tipY + 24, 0, '', 16);
 		tipTxt.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		tipTxt.borderSize = 2;
 		add(tipTxt);
@@ -178,12 +175,19 @@ class NotesColorSubState extends MusicBeatSubstate
 		FlxG.mouse.visible = !controls.controllerMode;
 		controllerPointer.visible = controls.controllerMode;
 		_lastControllerMode = controls.controllerMode;
+
+		addTouchPad('NONE', 'B_C');
+		controls.isInSubstate = true;
+		touchPad.buttonB.x = FlxG.width - 132;
+		touchPad.buttonC.x = 0;
+		touchPad.buttonC.y = FlxG.height - 135;
 	}
 
 	function updateTip()
 	{
 		var key:String = !controls.controllerMode ? Language.getPhrase('note_colors_shift', 'Shift') : Language.getPhrase('note_colors_lb', 'Left Shoulder Button');
-		tipTxt.text = Language.getPhrase('note_colors_hold_tip', 'Hold {1} + Press RESET key to fully reset the selected Note.', [key]);
+		if (!controls.mobileC)
+			tipTxt.text = Language.getPhrase('note_colors_hold_tip', 'Hold {1} + Press RESET key to fully reset the selected Note.', [key]);
 	}
 
 	var _storedColor:FlxColor;
@@ -198,6 +202,7 @@ class NotesColorSubState extends MusicBeatSubstate
 		if (controls.BACK) {
 			FlxG.mouse.visible = false;
 			FlxG.sound.play(Paths.sound('cancelMenu'));
+			controls.isInSubstate = false;
 			close();
 			return;
 		}
@@ -478,7 +483,7 @@ class NotesColorSubState extends MusicBeatSubstate
 				}
 			} 
 		}
-		else if(controls.RESET && hexTypeNum < 0)
+		else if(touchPad.buttonC.justPressed || controls.RESET && hexTypeNum < 0)
 		{
 			if(FlxG.keys.pressed.SHIFT || FlxG.gamepads.anyPressed(LEFT_SHOULDER))
 			{
@@ -593,11 +598,11 @@ class NotesColorSubState extends MusicBeatSubstate
 
 		// clear groups
 		modeNotes.forEachAlive(function(note:FlxSprite) {
-			note.kill();
+			//note.kill();
 			note.destroy();
 		});
 		myNotes.forEachAlive(function(note:StrumNote) {
-			note.kill();
+			//note.kill();
 			note.destroy();
 		});
 		modeNotes.clear();
@@ -616,7 +621,7 @@ class NotesColorSubState extends MusicBeatSubstate
 
 		// respawn stuff
 		var res:Int = onPixel ? 160 : 17;
-		skinNote = new FlxSprite(48, 44).loadGraphic(Paths.image('noteColorMenu/' + (onPixel ? 'note' : 'notePixel')), true, res, res);
+		skinNote = new FlxSprite(48, 24).loadGraphic(Paths.image('noteColorMenu/' + (onPixel ? 'note' : 'notePixel')), true, res, res);
 		skinNote.antialiasing = ClientPrefs.data.antialiasing;
 		skinNote.setGraphicSize(68);
 		skinNote.updateHitbox();
