@@ -130,6 +130,9 @@ class GameOverSubstate extends MusicBeatSubstate
 		}
 
 		super.create();
+
+		addTouchPad('NONE', 'A_B');
+		addTouchPadCamera();
 	}
 
 	override function update(elapsed:Float)
