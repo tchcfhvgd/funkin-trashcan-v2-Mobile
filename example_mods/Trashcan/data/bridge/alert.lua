@@ -25,7 +25,7 @@ function onCreate()
         screenCenter('spoilertext', 'x')
         addLuaText('spoilertext')
 
-        makeLuaText('spoilertext2', 'Press SPACE to continue   Press ESC to exit the song', 0, 0, 435)
+        makeLuaText('spoilertext2', 'Press A to continue   Press B to exit the song', 0, 0, 435)
         setTextFont('spoilertext2', 'igiari.ttf')
         setTextSize('spoilertext2', 20)
         setTextBorder('spoilertext2', 0, 'FFFFFF')
@@ -36,6 +36,9 @@ function onCreate()
         setObjectCamera('lineas', 'hud')
         setObjectOrder('lineas', 100)
         setBlendMode('lineas', 'screen')
+    
+        addTouchPad('NONE', 'A_B');
+		addTouchPadCamera();
     end
 end
 
@@ -43,11 +46,12 @@ function onStartCountdown()
     if spoiler then
 	    return Function_Stop
     end
+    removeTouchPad();
 end
 
 function onUpdate()
     if spoiler then
-        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SPACE') then
+        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SPACE')  or touchPadJustPressed('A') then
             spoiler = false
             playSound('bridgeblip')
             deleteFile('data/'..songPath..'/SPOILER.txt')
@@ -59,7 +63,7 @@ function onUpdate()
             startCountdown()
         end
 
-        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.ESCAPE') then
+        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.ESCAPE') or touchPadJustPressed('B') then
             exitSong()
         end
     end
