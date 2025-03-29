@@ -115,7 +115,7 @@ class OptionsState extends MusicBeatState
 		#end
 		controls.isInSubstate = false;
         	removeTouchPad();
-		addTouchPad('UP_DOWN', 'A_B_C');
+		addTouchPad('UP_DOWN', 'A_B_X_Y');
 		persistentUpdate = true;
 	}
 
