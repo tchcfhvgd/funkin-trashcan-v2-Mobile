@@ -26,6 +26,9 @@ function onCreate()
         makeLuaSprite('botone', directory..'/botone', 0, 0)
         setObjectCamera('botone', 'hud')
         setObjectOrder('botone', 100)
+    
+        addTouchPad('NONE', 'A_B');
+		addTouchPadCamera();
     end
 end
 
@@ -33,6 +36,7 @@ function onStartCountdown()
     if spoiler then
 	    return Function_Stop
     end
+    removeTouchPad();
 end
 
 function onCountdownStarted()
@@ -43,7 +47,7 @@ end
 
 function onUpdate()
     if spoiler then
-        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SPACE') then
+        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SPACE') or touchPadJustPressed('A') then
             spoiler = false
             playSound('confirmar vi', 0.5)
             deleteFile('data/'..songPath..'/SPOILER.txt')
@@ -55,7 +59,7 @@ function onUpdate()
             startCountdown()
         end
 
-        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.ESCAPE') then
+        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.ESCAPE') or touchPadJustPressed('B') then
             exitSong()
         end
     end
