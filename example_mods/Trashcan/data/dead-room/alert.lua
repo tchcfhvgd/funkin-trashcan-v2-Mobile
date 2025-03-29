@@ -25,19 +25,22 @@ function onCreate()
         screenCenter('spoilertext', 'x')
         addLuaText('spoilertext')
 
-        makeLuaText('spoilertext2', 'Press SPACE to continue', 0, 0, 405)
+        makeLuaText('spoilertext2', 'Press A to continue', 0, 0, 405)
         setTextFont('spoilertext2', 'NotoSans.ttf')
         setTextSize('spoilertext2', 30)
         setTextBorder('spoilertext2', 0, 'FFFFFF')
         screenCenter('spoilertext2', 'x')
         addLuaText('spoilertext2')
 
-        makeLuaText('spoilertext3', 'Press ESC to exit the song', 0, 0, 480)
+        makeLuaText('spoilertext3', 'Press B to exit the song', 0, 0, 480)
         setTextFont('spoilertext3', 'NotoSans.ttf')
         setTextSize('spoilertext3', 30)
         setTextBorder('spoilertext3', 0, 'FFFFFF')
         screenCenter('spoilertext3', 'x')
         addLuaText('spoilertext3')
+    
+        addTouchPad('NONE', 'A_B');
+		addTouchPadCamera();
     end
 end
 
@@ -45,11 +48,12 @@ function onStartCountdown()
     if spoiler then
 	    return Function_Stop
     end
+    removeTouchPad();
 end
 
 function onUpdate()
     if spoiler then
-        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SPACE') then
+        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SPACE') or touchPadJustPressed('A') then
             spoiler = false
             playSound('dead room', 0.6)
             deleteFile('data/'..songPath..'/SPOILER.txt')
@@ -61,7 +65,7 @@ function onUpdate()
             startCountdown()
         end
 
-        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.ESCAPE') then
+        if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.ESCAPE') or touchPadJustPressed('B') then
             exitSong()
         end
     end
