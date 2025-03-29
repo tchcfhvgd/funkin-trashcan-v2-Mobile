@@ -132,13 +132,13 @@ override public function create()
 
     override function update(elapsed:Float)
         {
-            if (controls.ACCEPT && !skippedIntro)
+            if (controls.ACCEPT && !skippedIntro || TouchUtil.justPressed && !skippedIntro)
 				{
 					skippedIntro = true;
                     trace('skip skip bro whats this game made for');
 				}
 
-			if(controls.ACCEPT && skippedIntro && !canPressEnter)
+			if(controls.ACCEPT && skippedIntro && !canPressEnter || TouchUtil.justPressed && skippedIntro && !canPressEnter)
 			{
                 new FlxTimer().start(0.5, function(tmr:FlxTimer)
                     {
@@ -158,7 +158,7 @@ override public function create()
 				});
 				// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
 			}
-            if(controls.ACCEPT && skippedIntro && canPressEnter)    MusicBeatState.switchState(new MainMenuState());
+            if(controls.ACCEPT && skippedIntro && canPressEnter || TouchUtil.justPressed && skippedIntro && canPressEnter)    MusicBeatState.switchState(new MainMenuState());
                 
 			super.update(elapsed);
         }
