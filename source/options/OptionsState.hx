@@ -19,12 +19,22 @@ class OptionsState extends MusicBeatState
 	public static var onPlayState:Bool = false;
 
 	function openSelectedSubstate(label:String) {
+		if (label != "Adjust Combo"){
+			removeTouchPad();
+			persistentUpdate = false;
+		}
 		switch(label)
 		{
 			case 'Note Colors':
 				openSubState(new options.NotesColorSubState());
 			case 'Controls':
-				openSubState(new options.ControlsSubState());
+				if (controls.mobileC)
+				{
+					persistentUpdate = false;
+					openSubState(new mobile.substates.MobileControlSelectSubState());
+				}
+				else
+					openSubState(new options.ControlsSubState());
 			case 'Graphics':
 				openSubState(new options.GraphicsSettingsSubState());
 			case 'Visuals':
@@ -98,6 +108,8 @@ class OptionsState extends MusicBeatState
 		ClientPrefs.saveSettings();
 
 		super.create();
+
+		addTouchPad('UP_DOWN', 'A_B_C');
 	}
 
 	override function closeSubState()
@@ -107,6 +119,10 @@ class OptionsState extends MusicBeatState
 		#if DISCORD_ALLOWED
 		DiscordClient.changePresence("Options Menu", null);
 		#end
+		controls.isInSubstate = false;
+        	removeTouchPad();
+		addTouchPad('UP_DOWN', 'A_B_C');
+		persistentUpdate = true;
 	}
 
 	override function update(elapsed:Float) {
@@ -117,6 +133,11 @@ class OptionsState extends MusicBeatState
 		if (controls.UI_DOWN_P)
 			changeSelection(1);
 
+		if(touchPad != null && touchPad.buttonC.justPressed)
+		{
+			openSubState(new mobile.options.MobileOptionsSubState());
+		}
+		
 		if (controls.BACK)
 		{
 			FlxG.sound.play(Paths.sound('cancelMenu'));
